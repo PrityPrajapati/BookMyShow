@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:showscape/firebase_options.dart';
 import 'package:showscape/core/router/app_router.dart';
 import 'package:showscape/core/theme/app_theme.dart';
 import 'package:showscape/l10n/app_localizations.dart';
@@ -14,6 +16,14 @@ import 'package:showscape/core/utils/app_haptics.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    debugPrint('Firebase initialization notice: $e');
+  }
+
   try {
     await Hive.initFlutter();
     await Hive.openBox<dynamic>('explore_preferences');
