@@ -1,8 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:showscape/features/notifications/domain/models/app_notification.dart';
@@ -167,48 +165,8 @@ class NotificationService {
     return true;
   }
 
-  /// Setup Firebase Messaging listeners safely
   Future<void> _initFirebaseMessaging() async {
-    try {
-      if (Firebase.apps.isNotEmpty) {
-        final messaging = FirebaseMessaging.instance;
-        await messaging.requestPermission(
-          alert: true,
-          announcement: false,
-          badge: true,
-          carPlay: false,
-          criticalAlert: false,
-          provisional: false,
-          sound: true,
-        );
-
-        FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-          final title = message.notification?.title ?? 'ShowScape Alert';
-          final body = message.notification?.body ?? '';
-          final deepLink = message.data['deepLink'] as String?;
-
-          recordNotification(
-            AppNotification(
-              id: message.messageId ?? DateTime.now().millisecondsSinceEpoch.toString(),
-              title: title,
-              body: body,
-              category: NotificationCategory.promotion,
-              timestamp: DateTime.now(),
-              deepLink: deepLink,
-            ),
-          );
-        });
-
-        FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-          final deepLink = message.data['deepLink'] as String?;
-          if (deepLink != null) {
-            handleDeepLink(deepLink);
-          }
-        });
-      }
-    } catch (e) {
-      debugPrint('Firebase messaging notice (mock or test environment): $e');
-    }
+    // Standalone local notification engine active
   }
 
   /// Handle interaction with notification action or tap
