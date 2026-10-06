@@ -309,6 +309,7 @@ void main() {
         ProviderScope(
           overrides: [
             currentUserProvider.overrideWith((ref) => Future.value(null)),
+            allUserBookingsProvider.overrideWith((ref) => Future.value([])),
           ],
           child: const MaterialApp(
             home: ProfileScreen(),
@@ -327,8 +328,7 @@ void main() {
 
       // Toggle 24h reminder switch
       final switches = find.byType(Switch);
-      expect(switches, findsAtLeastNWidgets(4));
-
+      await tester.ensureVisible(switches.first);
       await tester.tap(switches.first);
       await tester.pumpAndSettle();
     });

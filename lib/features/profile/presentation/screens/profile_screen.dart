@@ -451,7 +451,7 @@ class ProfileScreen extends ConsumerWidget {
   }
 }
 
-class _ProfileIdentityCard extends StatelessWidget {
+class _ProfileIdentityCard extends ConsumerWidget {
   const _ProfileIdentityCard({
     required this.palette,
     required this.user,
@@ -462,69 +462,384 @@ class _ProfileIdentityCard extends StatelessWidget {
   final AppUser? user;
   final String? fallbackName;
 
+  void _openProfileEditor(BuildContext context, WidgetRef ref) {
+    AppHaptics.selection();
+    final currentUser = user ??
+        AppUser(
+          id: 'usr_guest',
+          name: fallbackName ?? 'Guest User',
+          email: 'guest@showscape.ai',
+          phone: '+91 98765 43210',
+          preferredCities: const ['Mumbai'],
+          favoriteGenres: const ['Action', 'Sci-Fi'],
+          favoriteLanguages: const ['English', 'Hindi'],
+          isGoldMember: true,
+        );
+
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (ctx) => _ProfileEditorSheet(user: currentUser),
+    );
+  }
+
   @override
-  Widget build(BuildContext context) {
-    final name = user?.name ?? fallbackName ?? 'Guest';
+  Widget build(BuildContext context, WidgetRef ref) {
+    final name = user?.name ?? fallbackName ?? 'Guest User';
     final email = user?.email ?? 'Sign in to personalize ShowScape';
-    final phone = user?.phone;
+    final phone = user?.phone ?? '+91 98765 43210';
     final avatarUrl = user?.avatarUrl;
     final isGold = user?.isGoldMember ?? false;
 
+    return Column(
+      children: [
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: palette.surface,
+            borderRadius: AppRadius.border16,
+            border: Border.all(color: palette.border),
+          ),
+          child: Row(
+            children: [
+              CircleAvatar(
+                radius: 30,
+                backgroundColor: AppColors.primary.withAlpha(50),
+                backgroundImage: avatarUrl != null && avatarUrl.isNotEmpty
+                    ? CachedNetworkImageProvider(avatarUrl)
+                    : null,
+                child: avatarUrl == null || avatarUrl.isEmpty
+                    ? const Icon(Icons.person_rounded, size: 36, color: AppColors.primary)
+                    : null,
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            name,
+                            style: AppTypography.heading18(color: palette.text).copyWith(fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        IconButton(
+                          icon: const Icon(Icons.edit_note_rounded, size: 22, color: AppColors.primary),
+                          tooltip: 'Edit Profile',
+                          onPressed: () => _openProfileEditor(context, ref),
+                        ),
+                      ],
+                    ),
+                    Text(email, style: AppTypography.body14(color: palette.textMuted)),
+                    if (phone.isNotEmpty)
+                      Text(phone, style: AppTypography.caption12(color: palette.textMuted)),
+                    const SizedBox(height: 6),
+                    Wrap(
+                      spacing: 8,
+                      runSpacing: 4,
+                      crossAxisAlignment: WrapCrossAlignment.center,
+                      children: [
+                        if (isGold)
+                          const GoldBadge(
+                            text: 'GOLD VIP',
+                            showIcon: true,
+                            fontSize: 8,
+                            padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                          ),
+                        Text(
+                          'ID: ${user?.id ?? 'usr_guest'}',
+                          style: AppTypography.caption12(color: palette.textMuted),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        AppSpacing.vertical12,
+        _ProfileStatsWidget(palette: palette),
+      ],
+    );
+  }
+}
+
+class _ProfileStatsWidget extends ConsumerWidget {
+  const _ProfileStatsWidget({required this.palette});
+
+  final AppPalette palette;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final bookingsAsync = ref.watch(allUserBookingsProvider);
+    final bookings = bookingsAsync.asData?.value ?? [];
+    final activeCount = bookings.where((b) => b.showTime.isAfter(DateTime.now())).length;
+    final totalCount = bookings.length;
+
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: palette.surface,
+        color: palette.surfaceElevated,
         borderRadius: AppRadius.border16,
         border: Border.all(color: palette.border),
       ),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          CircleAvatar(
-            radius: 28,
-            backgroundColor: AppColors.primary.withAlpha(50),
-            backgroundImage: avatarUrl != null && avatarUrl.isNotEmpty
-                ? CachedNetworkImageProvider(avatarUrl)
-                : null,
-            child: avatarUrl == null || avatarUrl.isEmpty
-                ? const Icon(Icons.person_rounded, size: 32, color: AppColors.primary)
-                : null,
+          _StatColumn(
+            label: 'Active Passes',
+            value: '$activeCount',
+            icon: Icons.confirmation_number_outlined,
+            color: AppColors.primary,
+            palette: palette,
           ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  name,
-                  style: AppTypography.heading18(color: palette.text).copyWith(fontWeight: FontWeight.bold),
-                ),
-                const SizedBox(height: 2),
-                Text(email, style: AppTypography.body14(color: palette.textMuted)),
-                if (phone != null && phone.isNotEmpty)
-                  Text(phone, style: AppTypography.caption12(color: palette.textMuted)),
-                const SizedBox(height: 6),
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 4,
-                  crossAxisAlignment: WrapCrossAlignment.center,
-                  children: [
-                    if (isGold)
-                      const GoldBadge(
-                        text: 'GOLD',
-                        showIcon: false,
-                        fontSize: 8,
-                        padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                      ),
-                    Text(
-                      'ID: ${user?.id ?? 'guest'}',
-                      style: AppTypography.caption12(color: palette.textMuted),
-                    ),
-                  ],
-                ),
-              ],
-            ),
+          Container(width: 1, height: 32, color: palette.border),
+          _StatColumn(
+            label: 'Total Outings',
+            value: '$totalCount',
+            icon: Icons.local_activity_outlined,
+            color: AppColors.spotlightCoral,
+            palette: palette,
+          ),
+          Container(width: 1, height: 32, color: palette.border),
+          _StatColumn(
+            label: 'Gold Savings',
+            value: '₹340',
+            icon: Icons.savings_outlined,
+            color: Colors.amber,
+            palette: palette,
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _StatColumn extends StatelessWidget {
+  const _StatColumn({
+    required this.label,
+    required this.value,
+    required this.icon,
+    required this.color,
+    required this.palette,
+  });
+
+  final String label;
+  final String value;
+  final IconData icon;
+  final Color color;
+  final AppPalette palette;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon, size: 16, color: color),
+            const SizedBox(width: 4),
+            Text(
+              value,
+              style: TextStyle(color: palette.text, fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+          ],
+        ),
+        const SizedBox(height: 2),
+        Text(
+          label,
+          style: AppTypography.caption12(color: palette.textMuted),
+        ),
+      ],
+    );
+  }
+}
+
+class _ProfileEditorSheet extends ConsumerStatefulWidget {
+  const _ProfileEditorSheet({required this.user});
+
+  final AppUser user;
+
+  @override
+  ConsumerState<_ProfileEditorSheet> createState() => _ProfileEditorSheetState();
+}
+
+class _ProfileEditorSheetState extends ConsumerState<_ProfileEditorSheet> {
+  late TextEditingController _nameController;
+  late TextEditingController _emailController;
+  late TextEditingController _phoneController;
+  late String _selectedAvatar;
+  bool _isSaving = false;
+
+  static const List<String> _avatarPresets = [
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80',
+    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=256&q=80',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=256&q=80',
+    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=256&q=80',
+  ];
+
+  @override
+  void initState() {
+    super.initState();
+    _nameController = TextEditingController(text: widget.user.name);
+    _emailController = TextEditingController(text: widget.user.email);
+    _phoneController = TextEditingController(text: widget.user.phone);
+    _selectedAvatar = widget.user.avatarUrl ?? _avatarPresets.first;
+  }
+
+  @override
+  void dispose() {
+    _nameController.dispose();
+    _emailController.dispose();
+    _phoneController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _save() async {
+    AppHaptics.medium();
+    setState(() => _isSaving = true);
+
+    final updated = widget.user.copyWith(
+      name: _nameController.text.trim(),
+      email: _emailController.text.trim(),
+      phone: _phoneController.text.trim(),
+      avatarUrl: _selectedAvatar,
+    );
+
+    await ref.read(userRepositoryProvider).updateProfile(updated);
+    ref.read(authNotifierProvider).login(
+          email: updated.email,
+          displayName: updated.name,
+          userId: updated.id,
+        );
+    ref.invalidate(currentUserProvider);
+
+    if (!mounted) return;
+    Navigator.of(context).pop();
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(
+        content: Text('Profile details updated successfully!'),
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final palette = AppPalette.of(context);
+
+    return Padding(
+      padding: EdgeInsets.only(bottom: MediaQuery.viewInsetsOf(context).bottom),
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
+        decoration: BoxDecoration(
+          color: palette.surface,
+          borderRadius: AppRadius.sheetTop20,
+        ),
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text('Edit Profile Details', style: AppTypography.heading20(color: palette.text)),
+                  IconButton(
+                    icon: const Icon(Icons.close_rounded),
+                    onPressed: () => Navigator.of(context).pop(),
+                  ),
+                ],
+              ),
+              AppSpacing.vertical16,
+              
+              Text('Choose Avatar', style: AppTypography.caption12(color: palette.textMuted)),
+              const SizedBox(height: 8),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: _avatarPresets.map((url) {
+                  final isSelected = _selectedAvatar == url;
+                  return GestureDetector(
+                    onTap: () {
+                      AppHaptics.selection();
+                      setState(() => _selectedAvatar = url);
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.all(2),
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(
+                          color: isSelected ? AppColors.primary : Colors.transparent,
+                          width: 3,
+                        ),
+                      ),
+                      child: CircleAvatar(
+                        radius: 24,
+                        backgroundImage: CachedNetworkImageProvider(url),
+                      ),
+                    ),
+                  );
+                }).toList(),
+              ),
+              AppSpacing.vertical16,
+
+              TextFormField(
+                controller: _nameController,
+                decoration: InputDecoration(
+                  labelText: 'Full Name',
+                  prefixIcon: const Icon(Icons.person_outline_rounded),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+                ),
+              ),
+              AppSpacing.vertical12,
+              TextFormField(
+                controller: _emailController,
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  labelText: 'Email Address',
+                  prefixIcon: const Icon(Icons.email_outlined),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+                ),
+              ),
+              AppSpacing.vertical12,
+              TextFormField(
+                controller: _phoneController,
+                keyboardType: TextInputType.phone,
+                decoration: InputDecoration(
+                  labelText: 'Phone Number',
+                  prefixIcon: const Icon(Icons.phone_outlined),
+                  border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+                ),
+              ),
+              AppSpacing.vertical20,
+
+              SizedBox(
+                width: double.infinity,
+                height: 48,
+                child: ElevatedButton.icon(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: AppColors.primary,
+                    foregroundColor: Colors.white,
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                  ),
+                  onPressed: _isSaving ? null : _save,
+                  icon: _isSaving
+                      ? const SizedBox(
+                          width: 20,
+                          height: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white),
+                        )
+                      : const Icon(Icons.check_circle_outline_rounded),
+                  label: Text(_isSaving ? 'Saving...' : 'Save Profile Changes'),
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

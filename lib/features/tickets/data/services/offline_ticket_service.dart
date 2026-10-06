@@ -14,12 +14,17 @@ class OfflineTicketService {
       if (_box != null && _box!.isOpen) {
         return _box!;
       }
-      if (!Hive.isBoxOpen(boxName)) {
-        _box = await Hive.openBox<dynamic>(boxName);
-      } else {
+      if (Hive.isBoxOpen(boxName)) {
         _box = Hive.box<dynamic>(boxName);
+        return _box;
       }
-      return _box;
+      try {
+        _box = await Hive.openBox<dynamic>(boxName);
+        return _box;
+      } catch (e) {
+        debugPrint('OfflineTicketService Hive openBox error: $e');
+        return null;
+      }
     } catch (e) {
       debugPrint('OfflineTicketService: Hive is not initialized or box could not be opened: $e');
       return null;

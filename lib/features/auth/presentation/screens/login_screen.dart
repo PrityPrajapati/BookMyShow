@@ -26,6 +26,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   bool _isSubmitting = false;
+  bool _obscurePassword = true;
   String? _errorMessage;
 
   @override
@@ -33,6 +34,15 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
+  }
+
+  void _quickFillDemo() {
+    AppHaptics.selection();
+    setState(() {
+      _emailController.text = 'prity@showscape.ai';
+      _passwordController.text = 'showscape';
+      _errorMessage = null;
+    });
   }
 
   Future<void> _submit() async {
@@ -68,7 +78,11 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
         );
     ref.invalidate(currentUserProvider);
     AppHaptics.medium();
-    context.go(AppRoutes.home);
+    if (context.canPop()) {
+      context.pop();
+    } else {
+      context.go(AppRoutes.home);
+    }
   }
 
   @override
@@ -85,7 +99,11 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
           icon: const Icon(Icons.arrow_back_ios_new_rounded, size: 20),
           onPressed: () {
             AppHaptics.selection();
-            context.pop();
+            if (context.canPop()) {
+              context.pop();
+            } else {
+              context.go(AppRoutes.home);
+            }
           },
         ),
       ),
@@ -103,7 +121,45 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                   'Access your passes, Gold membership, and personalized Scout suggestions.',
                   style: AppTypography.body14(color: palette.textMuted),
                 ),
-                AppSpacing.vertical32,
+                AppSpacing.vertical24,
+                
+                // Quick Demo Auto-fill Banner
+                InkWell(
+                  onTap: _quickFillDemo,
+                  borderRadius: BorderRadius.circular(12),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                    decoration: BoxDecoration(
+                      color: palette.surfaceElevated,
+                      borderRadius: BorderRadius.circular(12),
+                      border: Border.all(color: palette.border),
+                    ),
+                    child: Row(
+                      children: [
+                        const Icon(Icons.bolt_rounded, size: 20, color: Color(0xFFF59E0B)),
+                        const SizedBox(width: 8),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Tap to auto-fill Demo Account',
+                                style: AppTypography.caption12(color: palette.text).copyWith(fontWeight: FontWeight.bold),
+                              ),
+                              Text(
+                                'prity@showscape.ai  ·  showscape',
+                                style: AppTypography.caption12(color: palette.textMuted),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const Icon(Icons.touch_app_rounded, size: 18, color: Color(0xFFF59E0B)),
+                      ],
+                    ),
+                  ),
+                ),
+                AppSpacing.vertical20,
+
                 TextFormField(
                   controller: _emailController,
                   keyboardType: TextInputType.emailAddress,
@@ -118,12 +174,24 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                 AppSpacing.vertical16,
                 TextFormField(
                   controller: _passwordController,
-                  obscureText: true,
+                  obscureText: _obscurePassword,
                   autofillHints: const <String>[AutofillHints.password],
                   decoration: authInputDecoration(
                     palette: palette,
                     label: 'Password',
                     icon: Icons.lock_outline_rounded,
+                  ).copyWith(
+                    suffixIcon: IconButton(
+                      icon: Icon(
+                        _obscurePassword ? Icons.visibility_outlined : Icons.visibility_off_outlined,
+                        color: palette.textMuted,
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          _obscurePassword = !_obscurePassword;
+                        });
+                      },
+                    ),
                   ),
                   validator: AuthValidators.password,
                   onFieldSubmitted: (_) => _submit(),
@@ -135,11 +203,6 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     style: AppTypography.body14(color: const Color(0xFFEF4444)),
                   ),
                 ],
-                AppSpacing.vertical12,
-                Text(
-                  'Demo account: prity@showscape.ai  ·  showscape',
-                  style: AppTypography.caption12(color: palette.textMuted),
-                ),
                 AppSpacing.vertical24,
                 PrimaryButton(
                   text: 'Sign In',
@@ -152,6 +215,48 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                   text: 'Create an account',
                   icon: const Icon(Icons.person_add_alt_rounded, size: 20),
                   onPressed: () => context.push(AppRoutes.signup),
+                ),
+
+                AppSpacing.vertical24,
+                Row(
+                  children: [
+                    Expanded(child: Divider(color: palette.border)),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      child: Text('OR CONTINUE WITH', style: AppTypography.caption12(color: palette.textMuted)),
+                    ),
+                    Expanded(child: Divider(color: palette.border)),
+                  ],
+                ),
+                AppSpacing.vertical16,
+                Row(
+                  children: [
+                    Expanded(
+                      child: OutlinedButton.icon(
+                        style: OutlinedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          side: BorderSide(color: palette.border),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                        onPressed: _quickFillDemo,
+                        icon: const Icon(Icons.g_mobiledata_rounded, size: 24, color: Color(0xFFEA4335)),
+                        label: Text('Google', style: TextStyle(color: palette.text)),
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: OutlinedButton.icon(
+                        style: OutlinedButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          side: BorderSide(color: palette.border),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                        onPressed: _quickFillDemo,
+                        icon: Icon(Icons.apple, size: 20, color: palette.text),
+                        label: Text('Apple', style: TextStyle(color: palette.text)),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),

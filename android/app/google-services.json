@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908151646783",
+    "project_id": "showscape-784a9",
+    "storage_bucket": "showscape-784a9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908151646783:android:044d97ca1ac202bd1ba68a",
+        "android_client_info": {
+          "package_name": "com.showscape.showscape"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn5nNw3Mo5VFeJqxwhxPyomY-mJdnLsRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
