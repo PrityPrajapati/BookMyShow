@@ -1,0 +1,322 @@
+[
+  {
+    "id": "evt_001",
+    "title": "Coldplay: Music of the Spheres World Tour",
+    "description": "Global pop-rock sensations Coldplay return to India with their iconic stadium tour featuring solar-powered stages, kinetic dance floors, and dazzling LED wristbands.",
+    "type": "concert",
+    "genres": [
+      "Pop",
+      "Rock",
+      "Alternative"
+    ],
+    "moodTags": [
+      "Electrifying",
+      "Unforgettable",
+      "Sing-Along",
+      "Euphoric"
+    ],
+    "languages": [
+      "English"
+    ],
+    "rating": 9.8,
+    "votesCount": 512000,
+    "durationMins": 150,
+    "posterUrl": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=VPRjCeoBqrI",
+    "aiSummary": "ShowScape AI: The biggest concert phenomenon of the decade in India. Expect hits like 'Yellow', 'Fix You', and 'Viva La Vida' under a sky of synchronized fireworks and lasers.",
+    "certificate": "U",
+    "releaseDate": "2026-10-18T18:00:00.000Z",
+    "cast": [
+      "Chris Martin",
+      "Jonny Buckland",
+      "Guy Berryman",
+      "Will Champion"
+    ],
+    "crew": [
+      "Live Nation Entertainment",
+      "BookMyShow Live"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "evt_002",
+    "title": "Arijit Singh - Soulful Symphony India Arena Tour",
+    "description": "Experience the undisputed voice of India accompanied by a 45-piece live grand symphony orchestra performing his most celebrated romantic anthems and soul-stirring melodies.",
+    "type": "concert",
+    "genres": [
+      "Bollywood",
+      "Sufi",
+      "Romantic"
+    ],
+    "moodTags": [
+      "Emotional",
+      "Soulful",
+      "Goosebumps",
+      "Romantic"
+    ],
+    "languages": [
+      "Hindi",
+      "Bengali"
+    ],
+    "rating": 9.7,
+    "votesCount": 420000,
+    "durationMins": 180,
+    "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=Umqb9KENgmk",
+    "aiSummary": "ShowScape AI: A 3-hour auditory sanctuary. Arijit weaves intimate acoustic ballads into soaring orchestral crescendos that will leave audiences tearful and overjoyed.",
+    "certificate": "U",
+    "releaseDate": "2026-11-14T19:00:00.000Z",
+    "cast": [
+      "Arijit Singh",
+      "Grand Philharmonic Orchestra"
+    ],
+    "crew": [
+      "TM Talent Management",
+      "ShowScape Live"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "evt_003",
+    "title": "Diljit Dosanjh: Dil-Luminati India Stadium Tour",
+    "description": "The Punjabi superstar and global trailblazer brings his high-voltage arena experience with hypnotic visuals, viral Punjabi hooks, and electric Bhangra vibes.",
+    "type": "concert",
+    "genres": [
+      "Punjabi",
+      "Pop",
+      "Bhangra",
+      "Hip-Hop"
+    ],
+    "moodTags": [
+      "High Energy",
+      "Party",
+      "Desi Swag",
+      "Adrenaline Rush"
+    ],
+    "languages": [
+      "Punjabi",
+      "Hindi"
+    ],
+    "rating": 9.6,
+    "votesCount": 389000,
+    "durationMins": 150,
+    "posterUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=cl0a3i2wFcc",
+    "aiSummary": "ShowScape AI: Pure festival madness! From 'Lover' to 'Born to Shine', Diljit's charismatic presence turns the entire stadium into a glowing, roaring dance celebration.",
+    "certificate": "U",
+    "releaseDate": "2026-10-25T18:30:00.000Z",
+    "cast": [
+      "Diljit Dosanjh",
+      "The Bhangra Crew"
+    ],
+    "crew": [
+      "Ripple Effects Studios",
+      "ShowScape Live"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "evt_004",
+    "title": "Zakir Khan: Tathastu & Beyond - Live",
+    "description": "Sakht Launda Zakir Khan returns with an all-new 90-minute standup special exploring family expectations, adulthood heartbreaks, and middle-class victories with his trademark poetic warmth.",
+    "type": "comedy",
+    "genres": [
+      "Standup Comedy",
+      "Storytelling"
+    ],
+    "moodTags": [
+      "Laugh-Out-Loud",
+      "Relatable",
+      "Nostalgic",
+      "Heartwarming"
+    ],
+    "languages": [
+      "Hindi"
+    ],
+    "rating": 9.5,
+    "votesCount": 265000,
+    "durationMins": 90,
+    "posterUrl": "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=P_V5q1hT-rY",
+    "aiSummary": "ShowScape AI: Masterclass in modern Indian storytelling. Zakir seamlessly blends belly laughs with nostalgic nostalgia and touching wisdom about love and companionship.",
+    "certificate": "UA 16+",
+    "releaseDate": "2026-10-12T20:00:00.000Z",
+    "cast": [
+      "Zakir Khan"
+    ],
+    "crew": [
+      "OML Entertainment"
+    ],
+    "isTrending": true,
+    "isFeatured": false
+  },
+  {
+    "id": "evt_005",
+    "title": "Anubhav Singh Bassi: Kisi Ko Batana Mat",
+    "description": "Bassi shares hilarious uncensored stories from his college days, law internship blunders, and chaotic friendships in his signature conversational style.",
+    "type": "comedy",
+    "genres": [
+      "Standup Comedy",
+      "Observational Comedy"
+    ],
+    "moodTags": [
+      "Laugh-Out-Loud",
+      "Crazy",
+      "Binge-Worthy",
+      "College Vibes"
+    ],
+    "languages": [
+      "Hindi"
+    ],
+    "rating": 9.3,
+    "votesCount": 182000,
+    "durationMins": 85,
+    "posterUrl": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=HQ2b7mK3v34",
+    "aiSummary": "ShowScape AI: Non-stop comedic turbulence! Bassi's raw delivery and unfiltered collegiate nostalgia make this one of the most quotable shows of the year.",
+    "certificate": "A",
+    "releaseDate": "2026-10-15T19:30:00.000Z",
+    "cast": [
+      "Anubhav Singh Bassi"
+    ],
+    "crew": [
+      "Laughter Therapy"
+    ],
+    "isTrending": false,
+    "isFeatured": false
+  },
+  {
+    "id": "evt_006",
+    "title": "Vir Das: Mind Fool World Tour",
+    "description": "Emmy Award winner Vir Das delivers an electrifying international comedy tour de force on geopolitical satire, growing up Indian, mental health, and absurdity in modern fame.",
+    "type": "comedy",
+    "genres": [
+      "Satire",
+      "Standup Comedy"
+    ],
+    "moodTags": [
+      "Witty",
+      "Mind-Bending",
+      "Edgy",
+      "Fast-Paced"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "rating": 9.2,
+    "votesCount": 145000,
+    "durationMins": 80,
+    "posterUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=w0qE1j3V_2Y",
+    "aiSummary": "ShowScape AI: Sharp, intelligent, and internationally acclaimed. Vir Das balances global cultural critiques with charming self-deprecating humor.",
+    "certificate": "A",
+    "releaseDate": "2026-10-22T20:30:00.000Z",
+    "cast": [
+      "Vir Das"
+    ],
+    "crew": [
+      "Weirdass Comedy"
+    ],
+    "isTrending": false,
+    "isFeatured": false
+  },
+  {
+    "id": "evt_007",
+    "title": "IPL 2026: Royal Challengers Bengaluru vs Chennai Super Kings",
+    "description": "The Southern Derby rekindles at M. Chinnaswamy Stadium! Virat Kohli leads RCB against the yellow army of MS Dhoni and Ruturaj Gaikwad in an epic T20 blockbuster.",
+    "type": "sports",
+    "genres": [
+      "Cricket",
+      "T20",
+      "League Match"
+    ],
+    "moodTags": [
+      "Adrenaline Rush",
+      "Electric",
+      "Rivalry",
+      "Edge-of-the-Seat"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Kannada",
+      "Tamil"
+    ],
+    "rating": 9.9,
+    "votesCount": 890000,
+    "durationMins": 220,
+    "posterUrl": "assets/images/ipl_poster.jpg",
+    "bannerUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=z4nO6q7_2g8",
+    "aiSummary": "ShowScape AI: Unmatched cricket atmosphere! 35,000 roaring fans in red and yellow, sixes sailing into Cubbon Park, and dramatic last-over finishes.",
+    "certificate": "U",
+    "releaseDate": "2026-10-10T19:30:00.000Z",
+    "cast": [
+      "Virat Kohli",
+      "MS Dhoni",
+      "Faf du Plessis",
+      "Ruturaj Gaikwad",
+      "Glenn Maxwell",
+      "Ravindra Jadeja"
+    ],
+    "crew": [
+      "BCCI",
+      "Indian Premier League"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "evt_008",
+    "title": "ISL 2026 Final: Mumbai City FC vs Mohun Bagan SG",
+    "description": "Indian football's ultimate prize showdown as the Islanders take on the Mariners in a high-stakes, breathless clash for the Indian Super League trophy.",
+    "type": "sports",
+    "genres": [
+      "Football",
+      "Soccer",
+      "Championship Final"
+    ],
+    "moodTags": [
+      "Edge-of-the-Seat",
+      "Passion",
+      "High Energy",
+      "Championship"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Bengali"
+    ],
+    "rating": 9.1,
+    "votesCount": 115000,
+    "durationMins": 120,
+    "posterUrl": "assets/images/isl_poster.jpg",
+    "bannerUrl": "assets/images/isl_banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=0k7mQ0F928A",
+    "aiSummary": "ShowScape AI: High-tempo modern football clash between India's most tactically disciplined squads, driven by passionate ultras and pulsating stadium anthems.",
+    "certificate": "U",
+    "releaseDate": "2026-10-28T19:30:00.000Z",
+    "cast": [
+      "Lallianzuala Chhangte",
+      "Liston Colaco",
+      "Manvir Singh",
+      "Phurba Lachenpa"
+    ],
+    "crew": [
+      "Football Sports Development Limited",
+      "Indian Super League"
+    ],
+    "isTrending": false,
+    "isFeatured": true
+  }
+]

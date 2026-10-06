@@ -1,0 +1,110 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:showscape/core/utils/app_haptics.dart';
+import 'package:showscape/core/constants/app_colors.dart';
+import 'package:showscape/core/theme/app_radius.dart';
+
+/// Secondary Outlined / Surface Button with Haptic Feedback
+class SecondaryButton extends StatelessWidget {
+  const SecondaryButton({
+    required this.text,
+    required this.onPressed,
+    super.key,
+    this.isLoading = false,
+    this.icon,
+    this.borderColor,
+    this.textColor,
+    this.height = 50.0,
+    this.width,
+    this.semanticLabel,
+  });
+
+  final String text;
+  final VoidCallback? onPressed;
+  final bool isLoading;
+  final Widget? icon;
+  final Color? borderColor;
+  final Color? textColor;
+  final double height;
+  final double? width;
+  final String? semanticLabel;
+
+  void _handleTap() {
+    if (onPressed == null || isLoading) return;
+    AppHaptics.light();
+    onPressed!();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final defaultBorder = isDark ? AppColors.surfaceBorder : AppColors.lightSurfaceBorder;
+    final defaultText = isDark ? AppColors.lavender : AppColors.textPrimaryLight;
+    final isDisabled = onPressed == null || isLoading;
+
+    return Semantics(
+      button: true,
+      enabled: !isDisabled,
+      label: semanticLabel ?? text,
+      child: SizedBox(
+        width: width ?? double.infinity,
+        height: height < 48.0 ? 48.0 : height,
+        child: OutlinedButton(
+          onPressed: isDisabled ? null : _handleTap,
+          style: OutlinedButton.styleFrom(
+            side: BorderSide(
+              color: (borderColor ?? defaultBorder).withValues(
+                alpha: isDisabled ? 0.3 : 1.0,
+              ),
+              width: 1.5,
+            ),
+            shape: AppRadius.shapePill,
+            backgroundColor: isDark
+                ? AppColors.surface.withValues(alpha: 0.5)
+                : AppColors.lightSurfaceElevated.withValues(alpha: 0.5),
+            padding: const EdgeInsets.symmetric(horizontal: 24),
+          ),
+          child: AnimatedSwitcher(
+            duration: const Duration(milliseconds: 200),
+            child: isLoading
+                ? SizedBox(
+                    width: 22,
+                    height: 22,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2.5,
+                      valueColor: AlwaysStoppedAnimation<Color>(
+                        textColor ?? defaultText,
+                      ),
+                    ),
+                  )
+                : Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      if (icon != null) ...[
+                        icon!,
+                        const SizedBox(width: 8),
+                      ],
+                      Flexible(
+                        child: Text(
+                          text,
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 1,
+                          style: GoogleFonts.poppins(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600,
+                            letterSpacing: 0.3,
+                            color: (textColor ?? defaultText).withValues(
+                              alpha: isDisabled ? 0.4 : 1.0,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+          ),
+        ),
+      ),
+    );
+  }
+}

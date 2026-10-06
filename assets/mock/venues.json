@@ -1,0 +1,442 @@
+[
+  {
+    "id": "ven_001",
+    "name": "PVR INOX: Phoenix Palladium",
+    "type": "cinema",
+    "address": "462, High Street Phoenix, Senapati Bapat Marg, Lower Parel",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "geo": {
+      "latitude": 18.9953,
+      "longitude": 72.8242,
+      "formattedAddress": "Phoenix Palladium, Lower Parel, Mumbai, Maharashtra 400013"
+    },
+    "amenities": [
+      "IMAX with Laser",
+      "Dolby Atmos 7.1",
+      "Recliner Loungers",
+      "Valet Parking",
+      "Gourmet Food Hall",
+      "Wheelchair Accessible",
+      "EV Fast Charging"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_001_4w",
+        "name": "Basement 2 - Four Wheeler Valet & Self",
+        "vehicleType": "fourWheeler",
+        "capacity": 450,
+        "available": 180,
+        "hourlyRate": 80.0,
+        "flatRate": 250.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_001_2w",
+        "name": "Basement 1 - Two Wheeler Bay",
+        "vehicleType": "twoWheeler",
+        "capacity": 300,
+        "available": 140,
+        "hourlyRate": 40.0,
+        "flatRate": 100.0,
+        "isCovered": true,
+        "hasValet": false
+      },
+      {
+        "id": "prk_001_ev",
+        "name": "Basement 2 - EV Supercharging Hub",
+        "vehicleType": "ev",
+        "capacity": 35,
+        "available": 12,
+        "hourlyRate": 120.0,
+        "flatRate": 350.0,
+        "isCovered": true,
+        "hasValet": true
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "totalScreens": 8
+  },
+  {
+    "id": "ven_002",
+    "name": "INOX Megaplex: Inorbit Mall",
+    "type": "cinema",
+    "address": "Inorbit Mall, New Link Road, Malad West",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "geo": {
+      "latitude": 19.1764,
+      "longitude": 72.8362,
+      "formattedAddress": "Inorbit Mall, Malad West, Mumbai, Maharashtra 400064"
+    },
+    "amenities": [
+      "ScreenX 270°",
+      "MX4D Motion Effects",
+      "Dolby Atmos",
+      "Insignia Lounge",
+      "Live Kitchen",
+      "Wheelchair Accessible"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_002_4w",
+        "name": "Multi-Level Car Parking (MLCP) - P3",
+        "vehicleType": "fourWheeler",
+        "capacity": 600,
+        "available": 240,
+        "hourlyRate": 70.0,
+        "flatRate": 200.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_002_2w",
+        "name": "Ground Level Two-Wheeler Plaza",
+        "vehicleType": "twoWheeler",
+        "capacity": 400,
+        "available": 190,
+        "hourlyRate": 30.0,
+        "flatRate": 80.0,
+        "isCovered": false,
+        "hasValet": false
+      },
+      {
+        "id": "prk_002_ev",
+        "name": "MLCP P1 - Tata Power EV Charging",
+        "vehicleType": "ev",
+        "capacity": 25,
+        "available": 8,
+        "hourlyRate": 100.0,
+        "flatRate": 300.0,
+        "isCovered": true,
+        "hasValet": false
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "totalScreens": 11
+  },
+  {
+    "id": "ven_003",
+    "name": "PVR Director's Cut: Ambience Mall",
+    "type": "cinema",
+    "address": "Ambience Mall, Nelson Mandela Marg, Vasant Kunj",
+    "city": "Delhi",
+    "state": "Delhi NCR",
+    "geo": {
+      "latitude": 28.5402,
+      "longitude": 77.1558,
+      "formattedAddress": "Ambience Mall, Vasant Kunj, New Delhi, Delhi 110070"
+    },
+    "amenities": [
+      "Director's Cut Ultra-Luxury Recliners",
+      "In-Seat Chef Dining",
+      "Private Concierge",
+      "Dolby Atmos",
+      "Curated Wine & Mocktail Bar",
+      "Exclusive Valet"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_003_4w",
+        "name": "VIP Basement 1 - Dedicated DC Valet",
+        "vehicleType": "fourWheeler",
+        "capacity": 300,
+        "available": 95,
+        "hourlyRate": 100.0,
+        "flatRate": 300.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_003_2w",
+        "name": "Basement 2 - Two Wheeler",
+        "vehicleType": "twoWheeler",
+        "capacity": 200,
+        "available": 110,
+        "hourlyRate": 40.0,
+        "flatRate": 100.0,
+        "isCovered": true,
+        "hasValet": false
+      },
+      {
+        "id": "prk_003_ev",
+        "name": "Basement 1 - EV High-Speed Bay",
+        "vehicleType": "ev",
+        "capacity": 20,
+        "available": 7,
+        "hourlyRate": 150.0,
+        "flatRate": 400.0,
+        "isCovered": true,
+        "hasValet": true
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "totalScreens": 5
+  },
+  {
+    "id": "ven_004",
+    "name": "Cinépolis: DLF Avenue",
+    "type": "cinema",
+    "address": "DLF Avenue Mall, Press Enclave Marg, Saket District Centre",
+    "city": "Delhi",
+    "state": "Delhi NCR",
+    "geo": {
+      "latitude": 28.5284,
+      "longitude": 77.2185,
+      "formattedAddress": "DLF Avenue, Saket, New Delhi, Delhi 110017"
+    },
+    "amenities": [
+      "Macro XE Giant Screen",
+      "4DX Immersive Motion",
+      "VIP Recliners",
+      "Coffee Tree Gourmet Café",
+      "Wheelchair Ramp & Seating"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_004_4w",
+        "name": "DLF Multi-Storey - Level B",
+        "vehicleType": "fourWheeler",
+        "capacity": 500,
+        "available": 210,
+        "hourlyRate": 80.0,
+        "flatRate": 220.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_004_2w",
+        "name": "Saket District Two-Wheeler Bay",
+        "vehicleType": "twoWheeler",
+        "capacity": 250,
+        "available": 120,
+        "hourlyRate": 30.0,
+        "flatRate": 90.0,
+        "isCovered": true,
+        "hasValet": false
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "totalScreens": 6
+  },
+  {
+    "id": "ven_005",
+    "name": "PVR Superplex: Forum South Bengaluru",
+    "type": "cinema",
+    "address": "Forum South Bengaluru, Kanakapura Main Road, Konanakunte",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "geo": {
+      "latitude": 12.8887,
+      "longitude": 77.5654,
+      "formattedAddress": "Forum South Mall, Konanakunte, Bengaluru, Karnataka 560062"
+    },
+    "amenities": [
+      "IMAX Laser 12-Channel Sound",
+      "4DX Experience",
+      "PVR LUXE Luxury Auditoriums",
+      "Playhouse Kids Auditorium",
+      "Quick Bite Kiosks",
+      "EV Fast Charging"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_005_4w",
+        "name": "Basement 1 & 2 Car Deck",
+        "vehicleType": "fourWheeler",
+        "capacity": 700,
+        "available": 310,
+        "hourlyRate": 60.0,
+        "flatRate": 180.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_005_2w",
+        "name": "Basement 3 Bike Deck",
+        "vehicleType": "twoWheeler",
+        "capacity": 500,
+        "available": 260,
+        "hourlyRate": 30.0,
+        "flatRate": 70.0,
+        "isCovered": true,
+        "hasValet": false
+      },
+      {
+        "id": "prk_005_ev",
+        "name": "Basement 1 Ather & Tata EV Grid",
+        "vehicleType": "ev",
+        "capacity": 40,
+        "available": 18,
+        "hourlyRate": 90.0,
+        "flatRate": 250.0,
+        "isCovered": true,
+        "hasValet": false
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "totalScreens": 12
+  },
+  {
+    "id": "ven_006",
+    "name": "Cinépolis: Westend Mall",
+    "type": "cinema",
+    "address": "Westend Mall, D.P. Road, Harmony Society, Ward No. 8, Aundh",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "geo": {
+      "latitude": 18.5615,
+      "longitude": 73.8078,
+      "formattedAddress": "Westend Mall, Aundh, Pune, Maharashtra 411007"
+    },
+    "amenities": [
+      "VIP Recliner Screens",
+      "Dolby Atmos",
+      "Gourmet Snacking Corner",
+      "Wheelchair Accessible",
+      "Express Entry"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_006_4w",
+        "name": "Westend Multi-Storey B1",
+        "vehicleType": "fourWheeler",
+        "capacity": 350,
+        "available": 140,
+        "hourlyRate": 50.0,
+        "flatRate": 150.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_006_2w",
+        "name": "Westend Outdoor Two-Wheeler Bay",
+        "vehicleType": "twoWheeler",
+        "capacity": 300,
+        "available": 160,
+        "hourlyRate": 20.0,
+        "flatRate": 50.0,
+        "isCovered": false,
+        "hasValet": false
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "totalScreens": 8
+  },
+  {
+    "id": "ven_007",
+    "name": "Wankhede Stadium",
+    "type": "stadium",
+    "address": "Vinoo Mankad Rd, Churchgate",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "geo": {
+      "latitude": 18.9389,
+      "longitude": 72.8258,
+      "formattedAddress": "Wankhede Stadium, D Road, Churchgate, Mumbai, Maharashtra 400020"
+    },
+    "amenities": [
+      "33,000 Capacity Seating",
+      "Garware & MCA Pavilions",
+      "Corporate Hospitality Suites",
+      "ICC Standard LED Floodlights",
+      "High-Density Wi-Fi 6",
+      "Multiple Food Plazas",
+      "Dedicated Metro Line 3 Access"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_007_4w",
+        "name": "Marine Drive Cricket Club Car Bay",
+        "vehicleType": "fourWheeler",
+        "capacity": 800,
+        "available": 150,
+        "hourlyRate": 100.0,
+        "flatRate": 400.0,
+        "isCovered": false,
+        "hasValet": true
+      },
+      {
+        "id": "prk_007_2w",
+        "name": "Churchgate Station Outer Two-Wheeler Deck",
+        "vehicleType": "twoWheeler",
+        "capacity": 1000,
+        "available": 320,
+        "hourlyRate": 40.0,
+        "flatRate": 120.0,
+        "isCovered": false,
+        "hasValet": false
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "totalScreens": 1
+  },
+  {
+    "id": "ven_008",
+    "name": "M. Chinnaswamy Stadium",
+    "type": "stadium",
+    "address": "Cubbon Road, Shivaji Nagar",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "geo": {
+      "latitude": 12.9788,
+      "longitude": 77.5996,
+      "formattedAddress": "M. Chinnaswamy Stadium, Cubbon Road, Bengaluru, Karnataka 560001"
+    },
+    "amenities": [
+      "35,000 Capacity Seating",
+      "SubAir Modern Drainage System",
+      "Solar Powered Stadium Canopy",
+      "Diamond Box Lounges",
+      "Fast Food Courts & Beverage Stalls",
+      "Direct MG Road Metro Skywalk",
+      "Wheelchair Accessible Ramps"
+    ],
+    "parkingLots": [
+      {
+        "id": "prk_008_4w",
+        "name": "Shivaji Nagar Multi-Level Parking",
+        "vehicleType": "fourWheeler",
+        "capacity": 1200,
+        "available": 350,
+        "hourlyRate": 80.0,
+        "flatRate": 300.0,
+        "isCovered": true,
+        "hasValet": true
+      },
+      {
+        "id": "prk_008_2w",
+        "name": "Cubbon Park Two-Wheeler Enclosure",
+        "vehicleType": "twoWheeler",
+        "capacity": 1500,
+        "available": 550,
+        "hourlyRate": 30.0,
+        "flatRate": 100.0,
+        "isCovered": false,
+        "hasValet": false
+      },
+      {
+        "id": "prk_008_ev",
+        "name": "BESCOM EV Fast Chargers - Gate 3",
+        "vehicleType": "ev",
+        "capacity": 50,
+        "available": 22,
+        "hourlyRate": 100.0,
+        "flatRate": 300.0,
+        "isCovered": true,
+        "hasValet": false
+      }
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.9,
+    "totalScreens": 1
+  }
+]

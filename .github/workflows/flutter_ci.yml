@@ -1,0 +1,69 @@
+name: ShowScape Flutter CI
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master, develop ]
+
+jobs:
+  analyze_and_test:
+    name: Flutter Analyze & Test with Coverage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.29.0'
+          channel: 'stable'
+          cache: true
+          cache-key: "flutter-:os:-:channel:-:version:-:arch:-:hash:"
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Generate Localizations
+        run: flutter gen-l10n
+
+      - name: Run Flutter Analyze
+        run: flutter analyze --no-fatal-infos
+
+      - name: Run Flutter Tests with Coverage
+        run: flutter test --coverage
+
+      - name: Install lcov for Coverage Report
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lcov
+
+      - name: Filter & Report Coverage Summary
+        run: |
+          # Remove generated code from coverage
+          lcov --remove coverage/lcov.info \
+            'lib/l10n/*' \
+            'lib/**/*.g.dart' \
+            'lib/**/*.freezed.dart' \
+            -o coverage/filtered_lcov.info --ignore-errors unused
+          
+          # Display summary
+          lcov --list coverage/filtered_lcov.info
+          
+          # Calculate line coverage percentage
+          COVERAGE=$(lcov --summary coverage/filtered_lcov.info | grep lines | awk '{print $2}')
+          echo "### Test Line Coverage: $COVERAGE" >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload Test Coverage Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/

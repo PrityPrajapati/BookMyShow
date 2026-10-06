@@ -1,0 +1,216 @@
+[
+  {
+    "id": "bkg_001",
+    "bookingNumber": "SS-BOM-92841",
+    "userId": "usr_001",
+    "eventId": "mov_001",
+    "eventTitle": "Pushpa 2: The Rule",
+    "eventPosterUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
+    "venueId": "ven_001",
+    "venueName": "PVR INOX: Phoenix Palladium",
+    "showId": "show_0001",
+    "showTime": "2026-10-02T19:45:00.000Z",
+    "showFormat": "4DX",
+    "bookingTime": "2026-10-01T11:20:00.000Z",
+    "tickets": [
+      {
+        "id": "tkt_001",
+        "bookingId": "bkg_001",
+        "seatId": "s1_G_7",
+        "seatNumber": "G7",
+        "row": "G",
+        "col": 7,
+        "category": "Recliner",
+        "price": 550.0,
+        "qrData": "SHOWSCAPE:TKT:001:G7:RECLINER:PVR-BOM-92841",
+        "status": "active"
+      },
+      {
+        "id": "tkt_002",
+        "bookingId": "bkg_001",
+        "seatId": "s1_G_8",
+        "seatNumber": "G8",
+        "row": "G",
+        "col": 8,
+        "category": "Recliner",
+        "price": 550.0,
+        "qrData": "SHOWSCAPE:TKT:002:G8:RECLINER:PVR-BOM-92841",
+        "status": "active"
+      }
+    ],
+    "fnbItems": [
+      {
+        "id": "fnb_002",
+        "name": "Golden Butter Gourmet Popcorn (Large)",
+        "description": "Jumbo popped corn drenched in creamy Dutch melted butter with a warm savory crunch.",
+        "imageUrl": "https://images.unsplash.com/photo-1585647347384-2593bc35786b?w=600&auto=format&fit=crop&q=80",
+        "price": 360.0,
+        "category": "Popcorn",
+        "isVeg": true,
+        "calories": 540,
+        "rating": 4.9
+      }
+    ],
+    "parkingLot": {
+      "id": "prk_001_4w",
+      "name": "Basement 2 - Four Wheeler Valet & Self",
+      "vehicleType": "fourWheeler",
+      "capacity": 450,
+      "available": 180,
+      "hourlyRate": 80.0,
+      "flatRate": 250.0,
+      "isCovered": true,
+      "hasValet": true
+    },
+    "priceBreakdown": {
+      "basePrice": 1100.0,
+      "convenienceFee": 76.0,
+      "gst": 13.68,
+      "fnbTotal": 360.0,
+      "parkingTotal": 250.0,
+      "discount": 50.0,
+      "grandTotal": 1749.68,
+      "donationAmount": 2.0
+    },
+    "status": "confirmed",
+    "qrCodeData": "SHOWSCAPE_BKG_SS-BOM-92841_VERIFIED"
+  },
+  {
+    "id": "bkg_002",
+    "bookingNumber": "SS-DEL-54219",
+    "userId": "usr_001",
+    "eventId": "mov_002",
+    "eventTitle": "Dune: Part Two",
+    "eventPosterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    "venueId": "ven_002",
+    "venueName": "Cinepolis: DLF Avenue Saket",
+    "showId": "show_0002",
+    "showTime": "2026-10-03T16:00:00.000Z",
+    "showFormat": "IMAX 2D",
+    "bookingTime": "2026-09-30T14:10:00.000Z",
+    "tickets": [
+      {
+        "id": "tkt_003",
+        "bookingId": "bkg_002",
+        "seatId": "s2_E_12",
+        "seatNumber": "E12",
+        "row": "E",
+        "col": 12,
+        "category": "Prime",
+        "price": 420.0,
+        "qrData": "SHOWSCAPE:TKT:003:E12:PRIME:CINE-DEL-54219",
+        "status": "active"
+      }
+    ],
+    "fnbItems": [],
+    "parkingLot": null,
+    "priceBreakdown": {
+      "basePrice": 420.0,
+      "convenienceFee": 45.0,
+      "gst": 8.1,
+      "fnbTotal": 0.0,
+      "parkingTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 473.1,
+      "donationAmount": 0.0
+    },
+    "status": "confirmed",
+    "qrCodeData": "SHOWSCAPE_BKG_SS-DEL-54219_VERIFIED"
+  },
+  {
+    "id": "bkg_003",
+    "bookingNumber": "SS-BLR-11048",
+    "userId": "usr_001",
+    "eventId": "mov_003",
+    "eventTitle": "Oppenheimer",
+    "eventPosterUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+    "venueId": "ven_003",
+    "venueName": "PVR Forum Mall: Koramangala",
+    "showId": "show_0003",
+    "showTime": "2026-09-18T20:30:00.000Z",
+    "showFormat": "IMAX 70mm",
+    "bookingTime": "2026-09-17T09:00:00.000Z",
+    "tickets": [
+      {
+        "id": "tkt_004",
+        "bookingId": "bkg_003",
+        "seatId": "s3_D_10",
+        "seatNumber": "D10",
+        "row": "D",
+        "col": 10,
+        "category": "Classic",
+        "price": 380.0,
+        "qrData": "SHOWSCAPE:TKT:004:D10:CLASSIC:PVR-BLR-11048",
+        "status": "used"
+      },
+      {
+        "id": "tkt_005",
+        "bookingId": "bkg_003",
+        "seatId": "s3_D_11",
+        "seatNumber": "D11",
+        "row": "D",
+        "col": 11,
+        "category": "Classic",
+        "price": 380.0,
+        "qrData": "SHOWSCAPE:TKT:005:D11:CLASSIC:PVR-BLR-11048",
+        "status": "used"
+      }
+    ],
+    "fnbItems": [],
+    "parkingLot": null,
+    "priceBreakdown": {
+      "basePrice": 760.0,
+      "convenienceFee": 60.0,
+      "gst": 10.8,
+      "fnbTotal": 0.0,
+      "parkingTotal": 0.0,
+      "discount": 40.0,
+      "grandTotal": 790.8,
+      "donationAmount": 0.0
+    },
+    "status": "confirmed",
+    "qrCodeData": "SHOWSCAPE_BKG_SS-BLR-11048_VERIFIED"
+  },
+  {
+    "id": "bkg_004",
+    "bookingNumber": "SS-MUM-77312",
+    "userId": "usr_001",
+    "eventId": "evt_001",
+    "eventTitle": "Coldplay: Music of the Spheres",
+    "eventPosterUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&auto=format&fit=crop&q=80",
+    "venueId": "ven_004",
+    "venueName": "DY Patil Stadium: Navi Mumbai",
+    "showId": "show_0004",
+    "showTime": "2026-10-15T18:00:00.000Z",
+    "showFormat": "Live Concert",
+    "bookingTime": "2026-09-25T16:45:00.000Z",
+    "tickets": [
+      {
+        "id": "tkt_006",
+        "bookingId": "bkg_004",
+        "seatId": "s4_L2_B4",
+        "seatNumber": "B4",
+        "row": "B",
+        "col": 4,
+        "category": "Lounge",
+        "price": 4500.0,
+        "qrData": "SHOWSCAPE:TKT:006:B4:LOUNGE:DYPATIL-77312",
+        "status": "transferred"
+      }
+    ],
+    "fnbItems": [],
+    "parkingLot": null,
+    "priceBreakdown": {
+      "basePrice": 4500.0,
+      "convenienceFee": 320.0,
+      "gst": 57.6,
+      "fnbTotal": 0.0,
+      "parkingTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 4877.6,
+      "donationAmount": 0.0
+    },
+    "status": "confirmed",
+    "qrCodeData": "SHOWSCAPE_BKG_SS-MUM-77312_TRANSFERRED"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "usr_001",
+    "name": "Prity Prajapati",
+    "email": "prity@showscape.ai",
+    "phone": "+91 98765 43210",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "isGoldMember": true,
+    "goldExpiry": "2027-10-01T00:00:00.000Z",
+    "preferredCities": ["Mumbai", "Bengaluru"],
+    "favoriteGenres": ["Action", "Sci-Fi", "Comedy"],
+    "favoriteLanguages": ["Hindi", "English", "Telugu"],
+    "createdAt": "2026-01-15T10:00:00.000Z"
+  }
+]

@@ -1,0 +1,535 @@
+[
+  {
+    "id": "mov_001",
+    "title": "Pushpa 2: The Rule",
+    "description": "Pushpa Raj continues to rule the red sandalwood smuggling empire while clashing with SP Bhanwar Singh Shekhawat in an explosive showdown of power, ego, and gritty rebellion.",
+    "type": "movie",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "moodTags": [
+      "Mass Action",
+      "Adrenaline Rush",
+      "Power Struggle",
+      "Gritty"
+    ],
+    "languages": [
+      "Telugu",
+      "Hindi",
+      "Tamil",
+      "Malayalam",
+      "Kannada"
+    ],
+    "rating": 9.2,
+    "votesCount": 428500,
+    "durationMins": 195,
+    "posterUrl": "assets/images/pushpa_poster.jpg",
+    "bannerUrl": "assets/images/pushpa_banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=1kVK0MZlbI4",
+    "aiSummary": "ShowScape AI: A high-octane mass spectacle featuring Allu Arjun's commanding swagger, electrifying confrontation sequences with Fahadh Faasil, and thumping Devi Sri Prasad score.",
+    "certificate": "UA 16+",
+    "releaseDate": "2026-08-15T00:00:00.000Z",
+    "cast": [
+      "Allu Arjun",
+      "Rashmika Mandanna",
+      "Fahadh Faasil",
+      "Sunil"
+    ],
+    "crew": [
+      "Sukumar (Director)",
+      "Devi Sri Prasad (Music)",
+      "Miroslaw Brozek (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "mov_002",
+    "title": "Kalki 2898 AD: The Awakening",
+    "description": "In a dystopian Kashi ruled by the enigmatic Supreme Yaskin, the immortal warrior Ashwatthama guides Bhairava through a prophecy to safeguard the dawn of a new millennium.",
+    "type": "movie",
+    "genres": [
+      "Sci-Fi",
+      "Mythology",
+      "Action"
+    ],
+    "moodTags": [
+      "Futuristic",
+      "Epic Scale",
+      "Mind-Bending",
+      "Mythological"
+    ],
+    "languages": [
+      "Telugu",
+      "Hindi",
+      "Tamil",
+      "English"
+    ],
+    "rating": 8.9,
+    "votesCount": 352100,
+    "durationMins": 182,
+    "posterUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=kQDd1AhGIHk",
+    "aiSummary": "ShowScape AI: A groundbreaking Indian sci-fi milestone blending ancient Indian mythology with Cyberpunk aesthetics, world-class VFX, and stellar performances by Amitabh Bachchan & Prabhas.",
+    "certificate": "UA",
+    "releaseDate": "2026-06-27T00:00:00.000Z",
+    "cast": [
+      "Prabhas",
+      "Amitabh Bachchan",
+      "Kamal Haasan",
+      "Deepika Padukone"
+    ],
+    "crew": [
+      "Nag Ashwin (Director)",
+      "Santhosh Narayanan (Music)",
+      "Djordje Stojiljkovic (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "mov_003",
+    "title": "Coolie",
+    "description": "A retired port supervisor with a storied past is forced back into the gold smuggling underworld when his estranged brother's family is threatened by a brutal syndicate.",
+    "type": "movie",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "moodTags": [
+      "Vintage Swag",
+      "High Energy",
+      "Revenge",
+      "Stylized"
+    ],
+    "languages": [
+      "Tamil",
+      "Hindi",
+      "Telugu",
+      "Kannada"
+    ],
+    "rating": 9.1,
+    "votesCount": 289400,
+    "durationMins": 168,
+    "posterUrl": "assets/images/coolie_poster.jpg",
+    "bannerUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=qLZZ6K07Gcc",
+    "aiSummary": "ShowScape AI: Superstar Rajinikanth teams up with director Lokesh Kanagaraj for a stylized, gold-toned crime-action epic with Anirudh's roaring background score.",
+    "certificate": "UA 16+",
+    "releaseDate": "2026-09-05T00:00:00.000Z",
+    "cast": [
+      "Rajinikanth",
+      "Nagarjuna",
+      "Upendra",
+      "Soubin Shahir",
+      "Shruti Haasan"
+    ],
+    "crew": [
+      "Lokesh Kanagaraj (Director)",
+      "Anirudh Ravichander (Music)",
+      "Girish Gangadharan (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "mov_004",
+    "title": "War 2",
+    "description": "Major Kabir Dhaliwal is tracked down by a rogue lethal RAW intelligence operative whose loyalties blur the line between national security and personal vengeance.",
+    "type": "movie",
+    "genres": [
+      "Action",
+      "Spy Thriller"
+    ],
+    "moodTags": [
+      "Adrenaline Rush",
+      "Espionage",
+      "Fast-Paced",
+      "Edge-of-the-Seat"
+    ],
+    "languages": [
+      "Hindi",
+      "Telugu",
+      "Tamil"
+    ],
+    "rating": 8.7,
+    "votesCount": 210800,
+    "durationMins": 160,
+    "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=tQ0mzXRk-oM",
+    "aiSummary": "ShowScape AI: The YRF Spy Universe reaches peak intensity as Hrithik Roshan faces off against Jr NTR in continent-spanning action set pieces and blistering combat sequences.",
+    "certificate": "UA",
+    "releaseDate": "2026-08-14T00:00:00.000Z",
+    "cast": [
+      "Hrithik Roshan",
+      "Jr NTR",
+      "Kiara Advani",
+      "John Abraham"
+    ],
+    "crew": [
+      "Ayan Mukerji (Director)",
+      "Pritam (Music)",
+      "Benjamin Jasper (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": false
+  },
+  {
+    "id": "mov_005",
+    "title": "Stree 3: Bhediya Connection",
+    "description": "The quirky ghost town of Chanderi experiences paranormal chaos once again when dark entity Sarkata's shadows provoke a war between spirits, requiring the town protectors to reunite.",
+    "type": "movie",
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "moodTags": [
+      "Laugh-Out-Loud",
+      "Spooky",
+      "Feel Good",
+      "Desi Folklore"
+    ],
+    "languages": [
+      "Hindi"
+    ],
+    "rating": 8.8,
+    "votesCount": 380200,
+    "durationMins": 154,
+    "posterUrl": "assets/images/stree_poster.jpg",
+    "bannerUrl": "assets/images/stree_poster.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=k10ETZ41q5o",
+    "aiSummary": "ShowScape AI: Laugh riot packed with desi horror folklore, crackling banter between Rajkummar Rao, Pankaj Tripathi and Abhishek Banerjee, with surprise horror-universe cameos.",
+    "certificate": "UA",
+    "releaseDate": "2026-07-20T00:00:00.000Z",
+    "cast": [
+      "Rajkummar Rao",
+      "Shraddha Kapoor",
+      "Pankaj Tripathi",
+      "Abhishek Banerjee",
+      "Varun Dhawan"
+    ],
+    "crew": [
+      "Amar Kaushik (Director)",
+      "Sachin-Jigar (Music)",
+      "Jishnu Bhattacharjee (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": false
+  },
+  {
+    "id": "mov_006",
+    "title": "Avengers: Secret Wars",
+    "description": "Across colliding multiverses, heroes from every timeline congregate on Battleworld to prevent the irreversible annihilation of reality itself against an omnipotent cosmic entity.",
+    "type": "movie",
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "moodTags": [
+      "Multiverse",
+      "Nostalgic",
+      "Epic Scale",
+      "Mind-Bending"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil",
+      "Telugu"
+    ],
+    "rating": 9.4,
+    "votesCount": 789000,
+    "durationMins": 188,
+    "posterUrl": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+    "aiSummary": "ShowScape AI: The magnum opus of the Marvel Cinematic Universe brings together legacy heroes and new icons in an IMAX-tailored visual extravaganza that will define a generation.",
+    "certificate": "UA 16+",
+    "releaseDate": "2026-05-01T00:00:00.000Z",
+    "cast": [
+      "Robert Downey Jr.",
+      "Benedict Cumberbatch",
+      "Tom Holland",
+      "Chris Hemsworth",
+      "Hugh Jackman"
+    ],
+    "crew": [
+      "Russo Brothers (Directors)",
+      "Alan Silvestri (Music)",
+      "Trent Opaloch (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  },
+  {
+    "id": "mov_007",
+    "title": "Dune: Part Three (Messiah)",
+    "description": "Paul Atreides rules the Imperium as emperor, but holy jihad and shadowy conspiracies amongst the Bene Gesserit and Spacing Guild test his prescience and love for Chani.",
+    "type": "movie",
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Adventure"
+    ],
+    "moodTags": [
+      "Visually Stunning",
+      "Philosophical",
+      "Epic Scale",
+      "Intense"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "rating": 9.1,
+    "votesCount": 412000,
+    "durationMins": 175,
+    "posterUrl": "assets/images/dune_poster.jpg",
+    "bannerUrl": "assets/images/dune_banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "aiSummary": "ShowScape AI: Denis Villeneuve crafts a hypnotic philosophical climax to the Arrakis saga, boasting staggering IMAX visuals and Hans Zimmer's earth-shaking desert score.",
+    "certificate": "UA",
+    "releaseDate": "2026-11-20T00:00:00.000Z",
+    "cast": [
+      "Timoth\u00e9e Chalamet",
+      "Zendaya",
+      "Florence Pugh",
+      "Javier Bardem",
+      "Anya Taylor-Joy"
+    ],
+    "crew": [
+      "Denis Villeneuve (Director)",
+      "Hans Zimmer (Music)",
+      "Greig Fraser (Cinematography)"
+    ],
+    "isTrending": false,
+    "isFeatured": true
+  },
+  {
+    "id": "mov_008",
+    "title": "Interstellar: 12th Anniversary IMAX Edition",
+    "description": "A team of explorers travel through a wormhole near Saturn in search of a habitable planet to ensure human survival as Earth succumbs to environmental collapse.",
+    "type": "movie",
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Drama"
+    ],
+    "moodTags": [
+      "Emotional",
+      "Mind-Bending",
+      "Tear-Jerker",
+      "Visually Stunning"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "rating": 9.5,
+    "votesCount": 920000,
+    "durationMins": 169,
+    "posterUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "aiSummary": "ShowScape AI: Christopher Nolan's timeless masterpiece returns to 70mm & Laser IMAX formats. Experience Cooper's journey through gargantua and Hans Zimmer's pipe organ score like never before.",
+    "certificate": "U",
+    "releaseDate": "2026-09-20T00:00:00.000Z",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+    ],
+    "crew": [
+      "Christopher Nolan (Director)",
+      "Hans Zimmer (Music)",
+      "Hoyte van Hoytema (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": false
+  },
+  {
+    "id": "mov_009",
+    "title": "Devara: Part 2 - Blood Tide",
+    "description": "The coastal waters run crimson as Devara's son unearths the conspiracy behind his father's betrayal, setting off an oceanic tactical war on the high seas.",
+    "type": "movie",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "moodTags": [
+      "High Energy",
+      "Revenge",
+      "Adrenaline Rush",
+      "Mass Action"
+    ],
+    "languages": [
+      "Telugu",
+      "Hindi",
+      "Tamil",
+      "Kannada"
+    ],
+    "rating": 8.6,
+    "votesCount": 195400,
+    "durationMins": 172,
+    "posterUrl": "assets/images/devara_poster.jpg",
+    "bannerUrl": "assets/images/devara_poster.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=7c_fAgtFfZ8",
+    "aiSummary": "ShowScape AI: Jr NTR commands the screen in dual roles with visceral marine battles, fiery drama, and Anirudh's pulsating tribal beats.",
+    "certificate": "A",
+    "releaseDate": "2026-10-10T00:00:00.000Z",
+    "cast": [
+      "Jr NTR",
+      "Saif Ali Khan",
+      "Janhvi Kapoor",
+      "Prakash Raj"
+    ],
+    "crew": [
+      "Koratala Siva (Director)",
+      "Anirudh Ravichander (Music)",
+      "R. Rathnavelu (Cinematography)"
+    ],
+    "isTrending": false,
+    "isFeatured": false
+  },
+  {
+    "id": "mov_010",
+    "title": "Thug Life",
+    "description": "A seasoned martial arts gangster navigates internal betrayals and a generational uprising across the underbellies of Chennai and Southeast Asia.",
+    "type": "movie",
+    "genres": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "moodTags": [
+      "Stylized",
+      "Dark & Gritty",
+      "Vintage Swag",
+      "Emotional"
+    ],
+    "languages": [
+      "Tamil",
+      "Telugu",
+      "Hindi"
+    ],
+    "rating": 8.8,
+    "votesCount": 164200,
+    "durationMins": 165,
+    "posterUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80",
+    "bannerUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1600&auto=format&fit=crop&q=80",
+    "trailerUrl": "https://www.youtube.com/watch?v=q6fG9j8L-r8",
+    "aiSummary": "ShowScape AI: Mani Ratnam and Kamal Haasan reunite after 37 years (Nayakan) for an operatic underworld saga with an ambient, soulful score by A.R. Rahman.",
+    "certificate": "UA 16+",
+    "releaseDate": "2026-11-05T00:00:00.000Z",
+    "cast": [
+      "Kamal Haasan",
+      "Silambarasan TR",
+      "Trisha Krishnan",
+      "Joju George"
+    ],
+    "crew": [
+      "Mani Ratnam (Director)",
+      "A.R. Rahman (Music)",
+      "Ravi K. Chandran (Cinematography)"
+    ],
+    "isTrending": false,
+    "isFeatured": false
+  },
+  {
+    "id": "mov_011",
+    "title": "Brahm\u0101stra: Part Two \u2013 Dev",
+    "description": "The origin story of Dev, the wielder of the supreme Agnyastra, who defied the Brahmansh order and waged war for cosmic dominance out of forbidden love.",
+    "type": "movie",
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Mythology"
+    ],
+    "moodTags": [
+      "Visually Stunning",
+      "Epic Scale",
+      "Romantic",
+      "Mythological"
+    ],
+    "languages": [
+      "Hindi",
+      "Telugu",
+      "Tamil"
+    ],
+    "rating": 8.5,
+    "votesCount": 240000,
+    "durationMins": 178,
+    "posterUrl": "assets/images/brahmastra_poster.jpg",
+    "bannerUrl": "assets/images/brahmastra_banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=V5Z8OHuF1lA",
+    "aiSummary": "ShowScape AI: Astraverse expands exponentially with breathtaking fire and water elemental CGI battles, exploring the darker lore of Dev and Amrita.",
+    "certificate": "UA",
+    "releaseDate": "2026-12-25T00:00:00.000Z",
+    "cast": [
+      "Ranveer Singh",
+      "Deepika Padukone",
+      "Ranbir Kapoor",
+      "Alia Bhatt"
+    ],
+    "crew": [
+      "Ayan Mukerji (Director)",
+      "Pritam (Music)",
+      "Sudeep Chatterjee (Cinematography)"
+    ],
+    "isTrending": false,
+    "isFeatured": true
+  },
+  {
+    "id": "mov_012",
+    "title": "Kantara: Chapter 1",
+    "description": "Set during the reign of the Kadamba dynasty, the sacred legend reveals the ancient origin of the tribal forest guardian deity and the covenant made with royalty.",
+    "type": "movie",
+    "genres": [
+      "Mythology",
+      "Action",
+      "Thriller"
+    ],
+    "moodTags": [
+      "Spiritual",
+      "Goosebumps",
+      "Folk Lore",
+      "Gritty"
+    ],
+    "languages": [
+      "Kannada",
+      "Hindi",
+      "Telugu",
+      "Tamil",
+      "Malayalam"
+    ],
+    "rating": 9.3,
+    "votesCount": 312000,
+    "durationMins": 164,
+    "posterUrl": "assets/images/kantara_poster.jpg",
+    "bannerUrl": "assets/images/kantara_banner.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=17XpDvd7iZ4",
+    "aiSummary": "ShowScape AI: Rishab Shetty returns with a divine, thunderous prequel delving deep into Coastal Karnataka's Daiva Aradhane roots with raw kinetic combat and spine-chilling soundscapes.",
+    "certificate": "UA 16+",
+    "releaseDate": "2026-10-02T00:00:00.000Z",
+    "cast": [
+      "Rishab Shetty",
+      "Sapthami Gowda",
+      "Achyuth Kumar",
+      "Kishore"
+    ],
+    "crew": [
+      "Rishab Shetty (Director)",
+      "B. Ajaneesh Loknath (Music)",
+      "Arvind S. Kashyap (Cinematography)"
+    ],
+    "isTrending": true,
+    "isFeatured": true
+  }
+]

@@ -1,0 +1,5816 @@
+[
+  {
+    "id": "layout_small_120",
+    "name": "Audi 3 - Cozy Club Screen",
+    "screenType": "Standard 2D/3D",
+    "totalSeats": 120,
+    "rows": [
+      {
+        "rowLabel": "A",
+        "category": "Classic",
+        "price": 240.0,
+        "seats": [
+          {
+            "id": "s1_A_1",
+            "row": "A",
+            "col": 1,
+            "seatNumber": "A1",
+            "type": "wheelchair",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_2",
+            "row": "A",
+            "col": 2,
+            "seatNumber": "A2",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_3",
+            "row": "A",
+            "col": 3,
+            "seatNumber": "A3",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_4",
+            "row": "A",
+            "col": 4,
+            "seatNumber": "A4",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_5",
+            "row": "A",
+            "col": 5,
+            "seatNumber": "A5",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s1_A_6",
+            "row": "A",
+            "col": 6,
+            "seatNumber": "A6",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_7",
+            "row": "A",
+            "col": 7,
+            "seatNumber": "A7",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_8",
+            "row": "A",
+            "col": 8,
+            "seatNumber": "A8",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_9",
+            "row": "A",
+            "col": 9,
+            "seatNumber": "A9",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_10",
+            "row": "A",
+            "col": 10,
+            "seatNumber": "A10",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s1_A_11",
+            "row": "A",
+            "col": 11,
+            "seatNumber": "A11",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_12",
+            "row": "A",
+            "col": 12,
+            "seatNumber": "A12",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_13",
+            "row": "A",
+            "col": 13,
+            "seatNumber": "A13",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_14",
+            "row": "A",
+            "col": 14,
+            "seatNumber": "A14",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_A_15",
+            "row": "A",
+            "col": 15,
+            "seatNumber": "A15",
+            "type": "wheelchair",
+            "category": "Classic",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "B",
+        "category": "Classic",
+        "price": 240.0,
+        "seats": [
+          {
+            "id": "s1_B_1",
+            "row": "B",
+            "col": 1,
+            "seatNumber": "B1",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_2",
+            "row": "B",
+            "col": 2,
+            "seatNumber": "B2",
+            "type": "standard",
+            "category": "Classic",
+            "state": "blocked"
+          },
+          {
+            "id": "s1_B_3",
+            "row": "B",
+            "col": 3,
+            "seatNumber": "B3",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_4",
+            "row": "B",
+            "col": 4,
+            "seatNumber": "B4",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_5",
+            "row": "B",
+            "col": 5,
+            "seatNumber": "B5",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s1_B_6",
+            "row": "B",
+            "col": 6,
+            "seatNumber": "B6",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_7",
+            "row": "B",
+            "col": 7,
+            "seatNumber": "B7",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_8",
+            "row": "B",
+            "col": 8,
+            "seatNumber": "B8",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_9",
+            "row": "B",
+            "col": 9,
+            "seatNumber": "B9",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_10",
+            "row": "B",
+            "col": 10,
+            "seatNumber": "B10",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s1_B_11",
+            "row": "B",
+            "col": 11,
+            "seatNumber": "B11",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_12",
+            "row": "B",
+            "col": 12,
+            "seatNumber": "B12",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_13",
+            "row": "B",
+            "col": 13,
+            "seatNumber": "B13",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_14",
+            "row": "B",
+            "col": 14,
+            "seatNumber": "B14",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s1_B_15",
+            "row": "B",
+            "col": 15,
+            "seatNumber": "B15",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "C",
+        "category": "Prime",
+        "price": 320.0,
+        "seats": [
+          {
+            "id": "s1_C_1",
+            "row": "C",
+            "col": 1,
+            "seatNumber": "C1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_2",
+            "row": "C",
+            "col": 2,
+            "seatNumber": "C2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_3",
+            "row": "C",
+            "col": 3,
+            "seatNumber": "C3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_4",
+            "row": "C",
+            "col": 4,
+            "seatNumber": "C4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s1_C_5",
+            "row": "C",
+            "col": 5,
+            "seatNumber": "C5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_C_6",
+            "row": "C",
+            "col": 6,
+            "seatNumber": "C6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_7",
+            "row": "C",
+            "col": 7,
+            "seatNumber": "C7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_8",
+            "row": "C",
+            "col": 8,
+            "seatNumber": "C8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_9",
+            "row": "C",
+            "col": 9,
+            "seatNumber": "C9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_10",
+            "row": "C",
+            "col": 10,
+            "seatNumber": "C10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_C_11",
+            "row": "C",
+            "col": 11,
+            "seatNumber": "C11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_12",
+            "row": "C",
+            "col": 12,
+            "seatNumber": "C12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_13",
+            "row": "C",
+            "col": 13,
+            "seatNumber": "C13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_14",
+            "row": "C",
+            "col": 14,
+            "seatNumber": "C14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_C_15",
+            "row": "C",
+            "col": 15,
+            "seatNumber": "C15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "D",
+        "category": "Prime",
+        "price": 320.0,
+        "seats": [
+          {
+            "id": "s1_D_1",
+            "row": "D",
+            "col": 1,
+            "seatNumber": "D1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_2",
+            "row": "D",
+            "col": 2,
+            "seatNumber": "D2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_3",
+            "row": "D",
+            "col": 3,
+            "seatNumber": "D3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_4",
+            "row": "D",
+            "col": 4,
+            "seatNumber": "D4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_5",
+            "row": "D",
+            "col": 5,
+            "seatNumber": "D5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_D_6",
+            "row": "D",
+            "col": 6,
+            "seatNumber": "D6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s1_D_7",
+            "row": "D",
+            "col": 7,
+            "seatNumber": "D7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_8",
+            "row": "D",
+            "col": 8,
+            "seatNumber": "D8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_9",
+            "row": "D",
+            "col": 9,
+            "seatNumber": "D9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_10",
+            "row": "D",
+            "col": 10,
+            "seatNumber": "D10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_D_11",
+            "row": "D",
+            "col": 11,
+            "seatNumber": "D11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_12",
+            "row": "D",
+            "col": 12,
+            "seatNumber": "D12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_13",
+            "row": "D",
+            "col": 13,
+            "seatNumber": "D13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_14",
+            "row": "D",
+            "col": 14,
+            "seatNumber": "D14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_D_15",
+            "row": "D",
+            "col": 15,
+            "seatNumber": "D15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "E",
+        "category": "Prime",
+        "price": 320.0,
+        "seats": [
+          {
+            "id": "s1_E_1",
+            "row": "E",
+            "col": 1,
+            "seatNumber": "E1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_2",
+            "row": "E",
+            "col": 2,
+            "seatNumber": "E2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_3",
+            "row": "E",
+            "col": 3,
+            "seatNumber": "E3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_4",
+            "row": "E",
+            "col": 4,
+            "seatNumber": "E4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_5",
+            "row": "E",
+            "col": 5,
+            "seatNumber": "E5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_E_6",
+            "row": "E",
+            "col": 6,
+            "seatNumber": "E6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_7",
+            "row": "E",
+            "col": 7,
+            "seatNumber": "E7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_8",
+            "row": "E",
+            "col": 8,
+            "seatNumber": "E8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s1_E_9",
+            "row": "E",
+            "col": 9,
+            "seatNumber": "E9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_10",
+            "row": "E",
+            "col": 10,
+            "seatNumber": "E10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_E_11",
+            "row": "E",
+            "col": 11,
+            "seatNumber": "E11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_12",
+            "row": "E",
+            "col": 12,
+            "seatNumber": "E12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_13",
+            "row": "E",
+            "col": 13,
+            "seatNumber": "E13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_14",
+            "row": "E",
+            "col": 14,
+            "seatNumber": "E14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_E_15",
+            "row": "E",
+            "col": 15,
+            "seatNumber": "E15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "F",
+        "category": "Prime",
+        "price": 320.0,
+        "seats": [
+          {
+            "id": "s1_F_1",
+            "row": "F",
+            "col": 1,
+            "seatNumber": "F1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_2",
+            "row": "F",
+            "col": 2,
+            "seatNumber": "F2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_3",
+            "row": "F",
+            "col": 3,
+            "seatNumber": "F3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_4",
+            "row": "F",
+            "col": 4,
+            "seatNumber": "F4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_5",
+            "row": "F",
+            "col": 5,
+            "seatNumber": "F5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_F_6",
+            "row": "F",
+            "col": 6,
+            "seatNumber": "F6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_7",
+            "row": "F",
+            "col": 7,
+            "seatNumber": "F7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_8",
+            "row": "F",
+            "col": 8,
+            "seatNumber": "F8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_9",
+            "row": "F",
+            "col": 9,
+            "seatNumber": "F9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_10",
+            "row": "F",
+            "col": 10,
+            "seatNumber": "F10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s1_F_11",
+            "row": "F",
+            "col": 11,
+            "seatNumber": "F11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_12",
+            "row": "F",
+            "col": 12,
+            "seatNumber": "F12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_13",
+            "row": "F",
+            "col": 13,
+            "seatNumber": "F13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_14",
+            "row": "F",
+            "col": 14,
+            "seatNumber": "F14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s1_F_15",
+            "row": "F",
+            "col": 15,
+            "seatNumber": "F15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "G",
+        "category": "Recliner",
+        "price": 550.0,
+        "seats": [
+          {
+            "id": "s1_G_1",
+            "row": "G",
+            "col": 1,
+            "seatNumber": "G1",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_2",
+            "row": "G",
+            "col": 2,
+            "seatNumber": "G2",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_3",
+            "row": "G",
+            "col": 3,
+            "seatNumber": "G3",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_4",
+            "row": "G",
+            "col": 4,
+            "seatNumber": "G4",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_5",
+            "row": "G",
+            "col": 5,
+            "seatNumber": "G5",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s1_G_6",
+            "row": "G",
+            "col": 6,
+            "seatNumber": "G6",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_7",
+            "row": "G",
+            "col": 7,
+            "seatNumber": "G7",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_8",
+            "row": "G",
+            "col": 8,
+            "seatNumber": "G8",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_9",
+            "row": "G",
+            "col": 9,
+            "seatNumber": "G9",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_10",
+            "row": "G",
+            "col": 10,
+            "seatNumber": "G10",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s1_G_11",
+            "row": "G",
+            "col": 11,
+            "seatNumber": "G11",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_12",
+            "row": "G",
+            "col": 12,
+            "seatNumber": "G12",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "blocked"
+          },
+          {
+            "id": "s1_G_13",
+            "row": "G",
+            "col": 13,
+            "seatNumber": "G13",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_14",
+            "row": "G",
+            "col": 14,
+            "seatNumber": "G14",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_G_15",
+            "row": "G",
+            "col": 15,
+            "seatNumber": "G15",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "H",
+        "category": "Recliner",
+        "price": 550.0,
+        "seats": [
+          {
+            "id": "s1_H_1",
+            "row": "H",
+            "col": 1,
+            "seatNumber": "H1",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_2",
+            "row": "H",
+            "col": 2,
+            "seatNumber": "H2",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_3",
+            "row": "H",
+            "col": 3,
+            "seatNumber": "H3",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_4",
+            "row": "H",
+            "col": 4,
+            "seatNumber": "H4",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_5",
+            "row": "H",
+            "col": 5,
+            "seatNumber": "H5",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s1_H_6",
+            "row": "H",
+            "col": 6,
+            "seatNumber": "H6",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_7",
+            "row": "H",
+            "col": 7,
+            "seatNumber": "H7",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_8",
+            "row": "H",
+            "col": 8,
+            "seatNumber": "H8",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_9",
+            "row": "H",
+            "col": 9,
+            "seatNumber": "H9",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_10",
+            "row": "H",
+            "col": 10,
+            "seatNumber": "H10",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s1_H_11",
+            "row": "H",
+            "col": 11,
+            "seatNumber": "H11",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_12",
+            "row": "H",
+            "col": 12,
+            "seatNumber": "H12",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_13",
+            "row": "H",
+            "col": 13,
+            "seatNumber": "H13",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s1_H_14",
+            "row": "H",
+            "col": 14,
+            "seatNumber": "H14",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "blocked"
+          },
+          {
+            "id": "s1_H_15",
+            "row": "H",
+            "col": 15,
+            "seatNumber": "H15",
+            "type": "sofa",
+            "category": "Recliner",
+            "state": "booked"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "layout_large_300",
+    "name": "Audi 1 - Grand Megaplex with Recliners",
+    "screenType": "Megaplex Dolby Atmos",
+    "totalSeats": 300,
+    "rows": [
+      {
+        "rowLabel": "A",
+        "category": "Classic",
+        "price": 220.0,
+        "seats": [
+          {
+            "id": "s2_A_1",
+            "row": "A",
+            "col": 1,
+            "seatNumber": "A1",
+            "type": "wheelchair",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_2",
+            "row": "A",
+            "col": 2,
+            "seatNumber": "A2",
+            "type": "wheelchair",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_3",
+            "row": "A",
+            "col": 3,
+            "seatNumber": "A3",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_4",
+            "row": "A",
+            "col": 4,
+            "seatNumber": "A4",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_A_5",
+            "row": "A",
+            "col": 5,
+            "seatNumber": "A5",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_6",
+            "row": "A",
+            "col": 6,
+            "seatNumber": "A6",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_7",
+            "row": "A",
+            "col": 7,
+            "seatNumber": "A7",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_8",
+            "row": "A",
+            "col": 8,
+            "seatNumber": "A8",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_A_9",
+            "row": "A",
+            "col": 9,
+            "seatNumber": "A9",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_10",
+            "row": "A",
+            "col": 10,
+            "seatNumber": "A10",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_11",
+            "row": "A",
+            "col": 11,
+            "seatNumber": "A11",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_12",
+            "row": "A",
+            "col": 12,
+            "seatNumber": "A12",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_A_13",
+            "row": "A",
+            "col": 13,
+            "seatNumber": "A13",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_14",
+            "row": "A",
+            "col": 14,
+            "seatNumber": "A14",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_15",
+            "row": "A",
+            "col": 15,
+            "seatNumber": "A15",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_16",
+            "row": "A",
+            "col": 16,
+            "seatNumber": "A16",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_A_17",
+            "row": "A",
+            "col": 17,
+            "seatNumber": "A17",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_18",
+            "row": "A",
+            "col": 18,
+            "seatNumber": "A18",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_19",
+            "row": "A",
+            "col": 19,
+            "seatNumber": "A19",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_20",
+            "row": "A",
+            "col": 20,
+            "seatNumber": "A20",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_A_21",
+            "row": "A",
+            "col": 21,
+            "seatNumber": "A21",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_22",
+            "row": "A",
+            "col": 22,
+            "seatNumber": "A22",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_A_23",
+            "row": "A",
+            "col": 23,
+            "seatNumber": "A23",
+            "type": "standard",
+            "category": "Classic",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_A_24",
+            "row": "A",
+            "col": 24,
+            "seatNumber": "A24",
+            "type": "wheelchair",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_A_25",
+            "row": "A",
+            "col": 25,
+            "seatNumber": "A25",
+            "type": "wheelchair",
+            "category": "Classic",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "B",
+        "category": "Classic",
+        "price": 220.0,
+        "seats": [
+          {
+            "id": "s2_B_1",
+            "row": "B",
+            "col": 1,
+            "seatNumber": "B1",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_2",
+            "row": "B",
+            "col": 2,
+            "seatNumber": "B2",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_3",
+            "row": "B",
+            "col": 3,
+            "seatNumber": "B3",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_B_4",
+            "row": "B",
+            "col": 4,
+            "seatNumber": "B4",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_5",
+            "row": "B",
+            "col": 5,
+            "seatNumber": "B5",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_6",
+            "row": "B",
+            "col": 6,
+            "seatNumber": "B6",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_7",
+            "row": "B",
+            "col": 7,
+            "seatNumber": "B7",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_B_8",
+            "row": "B",
+            "col": 8,
+            "seatNumber": "B8",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_9",
+            "row": "B",
+            "col": 9,
+            "seatNumber": "B9",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_10",
+            "row": "B",
+            "col": 10,
+            "seatNumber": "B10",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_11",
+            "row": "B",
+            "col": 11,
+            "seatNumber": "B11",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_B_12",
+            "row": "B",
+            "col": 12,
+            "seatNumber": "B12",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_13",
+            "row": "B",
+            "col": 13,
+            "seatNumber": "B13",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_14",
+            "row": "B",
+            "col": 14,
+            "seatNumber": "B14",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_15",
+            "row": "B",
+            "col": 15,
+            "seatNumber": "B15",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_B_16",
+            "row": "B",
+            "col": 16,
+            "seatNumber": "B16",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_17",
+            "row": "B",
+            "col": 17,
+            "seatNumber": "B17",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_18",
+            "row": "B",
+            "col": 18,
+            "seatNumber": "B18",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_19",
+            "row": "B",
+            "col": 19,
+            "seatNumber": "B19",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_B_20",
+            "row": "B",
+            "col": 20,
+            "seatNumber": "B20",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_21",
+            "row": "B",
+            "col": 21,
+            "seatNumber": "B21",
+            "type": "standard",
+            "category": "Classic",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_B_22",
+            "row": "B",
+            "col": 22,
+            "seatNumber": "B22",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_23",
+            "row": "B",
+            "col": 23,
+            "seatNumber": "B23",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_B_24",
+            "row": "B",
+            "col": 24,
+            "seatNumber": "B24",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_B_25",
+            "row": "B",
+            "col": 25,
+            "seatNumber": "B25",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "C",
+        "category": "Classic",
+        "price": 220.0,
+        "seats": [
+          {
+            "id": "s2_C_1",
+            "row": "C",
+            "col": 1,
+            "seatNumber": "C1",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_2",
+            "row": "C",
+            "col": 2,
+            "seatNumber": "C2",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_C_3",
+            "row": "C",
+            "col": 3,
+            "seatNumber": "C3",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_4",
+            "row": "C",
+            "col": 4,
+            "seatNumber": "C4",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_5",
+            "row": "C",
+            "col": 5,
+            "seatNumber": "C5",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_6",
+            "row": "C",
+            "col": 6,
+            "seatNumber": "C6",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_C_7",
+            "row": "C",
+            "col": 7,
+            "seatNumber": "C7",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_8",
+            "row": "C",
+            "col": 8,
+            "seatNumber": "C8",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_9",
+            "row": "C",
+            "col": 9,
+            "seatNumber": "C9",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_10",
+            "row": "C",
+            "col": 10,
+            "seatNumber": "C10",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_C_11",
+            "row": "C",
+            "col": 11,
+            "seatNumber": "C11",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_12",
+            "row": "C",
+            "col": 12,
+            "seatNumber": "C12",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_13",
+            "row": "C",
+            "col": 13,
+            "seatNumber": "C13",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_14",
+            "row": "C",
+            "col": 14,
+            "seatNumber": "C14",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_C_15",
+            "row": "C",
+            "col": 15,
+            "seatNumber": "C15",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_16",
+            "row": "C",
+            "col": 16,
+            "seatNumber": "C16",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_17",
+            "row": "C",
+            "col": 17,
+            "seatNumber": "C17",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_18",
+            "row": "C",
+            "col": 18,
+            "seatNumber": "C18",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_C_19",
+            "row": "C",
+            "col": 19,
+            "seatNumber": "C19",
+            "type": "standard",
+            "category": "Classic",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_C_20",
+            "row": "C",
+            "col": 20,
+            "seatNumber": "C20",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_21",
+            "row": "C",
+            "col": 21,
+            "seatNumber": "C21",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_22",
+            "row": "C",
+            "col": 22,
+            "seatNumber": "C22",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_C_23",
+            "row": "C",
+            "col": 23,
+            "seatNumber": "C23",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_24",
+            "row": "C",
+            "col": 24,
+            "seatNumber": "C24",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_C_25",
+            "row": "C",
+            "col": 25,
+            "seatNumber": "C25",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "D",
+        "category": "Classic",
+        "price": 220.0,
+        "seats": [
+          {
+            "id": "s2_D_1",
+            "row": "D",
+            "col": 1,
+            "seatNumber": "D1",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_D_2",
+            "row": "D",
+            "col": 2,
+            "seatNumber": "D2",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_3",
+            "row": "D",
+            "col": 3,
+            "seatNumber": "D3",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_4",
+            "row": "D",
+            "col": 4,
+            "seatNumber": "D4",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_5",
+            "row": "D",
+            "col": 5,
+            "seatNumber": "D5",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_D_6",
+            "row": "D",
+            "col": 6,
+            "seatNumber": "D6",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_7",
+            "row": "D",
+            "col": 7,
+            "seatNumber": "D7",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_8",
+            "row": "D",
+            "col": 8,
+            "seatNumber": "D8",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_9",
+            "row": "D",
+            "col": 9,
+            "seatNumber": "D9",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_D_10",
+            "row": "D",
+            "col": 10,
+            "seatNumber": "D10",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_11",
+            "row": "D",
+            "col": 11,
+            "seatNumber": "D11",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_12",
+            "row": "D",
+            "col": 12,
+            "seatNumber": "D12",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_13",
+            "row": "D",
+            "col": 13,
+            "seatNumber": "D13",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_D_14",
+            "row": "D",
+            "col": 14,
+            "seatNumber": "D14",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_15",
+            "row": "D",
+            "col": 15,
+            "seatNumber": "D15",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_16",
+            "row": "D",
+            "col": 16,
+            "seatNumber": "D16",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_17",
+            "row": "D",
+            "col": 17,
+            "seatNumber": "D17",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_D_18",
+            "row": "D",
+            "col": 18,
+            "seatNumber": "D18",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_19",
+            "row": "D",
+            "col": 19,
+            "seatNumber": "D19",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_20",
+            "row": "D",
+            "col": 20,
+            "seatNumber": "D20",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_21",
+            "row": "D",
+            "col": 21,
+            "seatNumber": "D21",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s2_D_22",
+            "row": "D",
+            "col": 22,
+            "seatNumber": "D22",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_23",
+            "row": "D",
+            "col": 23,
+            "seatNumber": "D23",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_24",
+            "row": "D",
+            "col": 24,
+            "seatNumber": "D24",
+            "type": "standard",
+            "category": "Classic",
+            "state": "available"
+          },
+          {
+            "id": "s2_D_25",
+            "row": "D",
+            "col": 25,
+            "seatNumber": "D25",
+            "type": "standard",
+            "category": "Classic",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "E",
+        "category": "Prime",
+        "price": 350.0,
+        "seats": [
+          {
+            "id": "s2_E_1",
+            "row": "E",
+            "col": 1,
+            "seatNumber": "E1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_2",
+            "row": "E",
+            "col": 2,
+            "seatNumber": "E2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_3",
+            "row": "E",
+            "col": 3,
+            "seatNumber": "E3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_4",
+            "row": "E",
+            "col": 4,
+            "seatNumber": "E4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_E_5",
+            "row": "E",
+            "col": 5,
+            "seatNumber": "E5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_6",
+            "row": "E",
+            "col": 6,
+            "seatNumber": "E6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_7",
+            "row": "E",
+            "col": 7,
+            "seatNumber": "E7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_8",
+            "row": "E",
+            "col": 8,
+            "seatNumber": "E8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_E_9",
+            "row": "E",
+            "col": 9,
+            "seatNumber": "E9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_10",
+            "row": "E",
+            "col": 10,
+            "seatNumber": "E10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_11",
+            "row": "E",
+            "col": 11,
+            "seatNumber": "E11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_12",
+            "row": "E",
+            "col": 12,
+            "seatNumber": "E12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_E_13",
+            "row": "E",
+            "col": 13,
+            "seatNumber": "E13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_14",
+            "row": "E",
+            "col": 14,
+            "seatNumber": "E14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_15",
+            "row": "E",
+            "col": 15,
+            "seatNumber": "E15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_E_16",
+            "row": "E",
+            "col": 16,
+            "seatNumber": "E16",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_E_17",
+            "row": "E",
+            "col": 17,
+            "seatNumber": "E17",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_18",
+            "row": "E",
+            "col": 18,
+            "seatNumber": "E18",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_19",
+            "row": "E",
+            "col": 19,
+            "seatNumber": "E19",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_20",
+            "row": "E",
+            "col": 20,
+            "seatNumber": "E20",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_E_21",
+            "row": "E",
+            "col": 21,
+            "seatNumber": "E21",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_22",
+            "row": "E",
+            "col": 22,
+            "seatNumber": "E22",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_23",
+            "row": "E",
+            "col": 23,
+            "seatNumber": "E23",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_E_24",
+            "row": "E",
+            "col": 24,
+            "seatNumber": "E24",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_E_25",
+            "row": "E",
+            "col": 25,
+            "seatNumber": "E25",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "F",
+        "category": "Prime",
+        "price": 350.0,
+        "seats": [
+          {
+            "id": "s2_F_1",
+            "row": "F",
+            "col": 1,
+            "seatNumber": "F1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_2",
+            "row": "F",
+            "col": 2,
+            "seatNumber": "F2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_3",
+            "row": "F",
+            "col": 3,
+            "seatNumber": "F3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_F_4",
+            "row": "F",
+            "col": 4,
+            "seatNumber": "F4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_5",
+            "row": "F",
+            "col": 5,
+            "seatNumber": "F5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_6",
+            "row": "F",
+            "col": 6,
+            "seatNumber": "F6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_7",
+            "row": "F",
+            "col": 7,
+            "seatNumber": "F7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_F_8",
+            "row": "F",
+            "col": 8,
+            "seatNumber": "F8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_9",
+            "row": "F",
+            "col": 9,
+            "seatNumber": "F9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_10",
+            "row": "F",
+            "col": 10,
+            "seatNumber": "F10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_11",
+            "row": "F",
+            "col": 11,
+            "seatNumber": "F11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_F_12",
+            "row": "F",
+            "col": 12,
+            "seatNumber": "F12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_13",
+            "row": "F",
+            "col": 13,
+            "seatNumber": "F13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_F_14",
+            "row": "F",
+            "col": 14,
+            "seatNumber": "F14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_15",
+            "row": "F",
+            "col": 15,
+            "seatNumber": "F15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_F_16",
+            "row": "F",
+            "col": 16,
+            "seatNumber": "F16",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_17",
+            "row": "F",
+            "col": 17,
+            "seatNumber": "F17",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_18",
+            "row": "F",
+            "col": 18,
+            "seatNumber": "F18",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_19",
+            "row": "F",
+            "col": 19,
+            "seatNumber": "F19",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_F_20",
+            "row": "F",
+            "col": 20,
+            "seatNumber": "F20",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_21",
+            "row": "F",
+            "col": 21,
+            "seatNumber": "F21",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_22",
+            "row": "F",
+            "col": 22,
+            "seatNumber": "F22",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_23",
+            "row": "F",
+            "col": 23,
+            "seatNumber": "F23",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_F_24",
+            "row": "F",
+            "col": 24,
+            "seatNumber": "F24",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_F_25",
+            "row": "F",
+            "col": 25,
+            "seatNumber": "F25",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "G",
+        "category": "Prime",
+        "price": 350.0,
+        "seats": [
+          {
+            "id": "s2_G_1",
+            "row": "G",
+            "col": 1,
+            "seatNumber": "G1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_2",
+            "row": "G",
+            "col": 2,
+            "seatNumber": "G2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_G_3",
+            "row": "G",
+            "col": 3,
+            "seatNumber": "G3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_4",
+            "row": "G",
+            "col": 4,
+            "seatNumber": "G4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_5",
+            "row": "G",
+            "col": 5,
+            "seatNumber": "G5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_6",
+            "row": "G",
+            "col": 6,
+            "seatNumber": "G6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_G_7",
+            "row": "G",
+            "col": 7,
+            "seatNumber": "G7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_8",
+            "row": "G",
+            "col": 8,
+            "seatNumber": "G8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_9",
+            "row": "G",
+            "col": 9,
+            "seatNumber": "G9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_10",
+            "row": "G",
+            "col": 10,
+            "seatNumber": "G10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_G_11",
+            "row": "G",
+            "col": 11,
+            "seatNumber": "G11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_G_12",
+            "row": "G",
+            "col": 12,
+            "seatNumber": "G12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_13",
+            "row": "G",
+            "col": 13,
+            "seatNumber": "G13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_14",
+            "row": "G",
+            "col": 14,
+            "seatNumber": "G14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_G_15",
+            "row": "G",
+            "col": 15,
+            "seatNumber": "G15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_16",
+            "row": "G",
+            "col": 16,
+            "seatNumber": "G16",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_17",
+            "row": "G",
+            "col": 17,
+            "seatNumber": "G17",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_18",
+            "row": "G",
+            "col": 18,
+            "seatNumber": "G18",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_G_19",
+            "row": "G",
+            "col": 19,
+            "seatNumber": "G19",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_20",
+            "row": "G",
+            "col": 20,
+            "seatNumber": "G20",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_21",
+            "row": "G",
+            "col": 21,
+            "seatNumber": "G21",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_22",
+            "row": "G",
+            "col": 22,
+            "seatNumber": "G22",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_G_23",
+            "row": "G",
+            "col": 23,
+            "seatNumber": "G23",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_24",
+            "row": "G",
+            "col": 24,
+            "seatNumber": "G24",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_G_25",
+            "row": "G",
+            "col": 25,
+            "seatNumber": "G25",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "H",
+        "category": "Prime",
+        "price": 350.0,
+        "seats": [
+          {
+            "id": "s2_H_1",
+            "row": "H",
+            "col": 1,
+            "seatNumber": "H1",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_H_2",
+            "row": "H",
+            "col": 2,
+            "seatNumber": "H2",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_3",
+            "row": "H",
+            "col": 3,
+            "seatNumber": "H3",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_4",
+            "row": "H",
+            "col": 4,
+            "seatNumber": "H4",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_5",
+            "row": "H",
+            "col": 5,
+            "seatNumber": "H5",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_H_6",
+            "row": "H",
+            "col": 6,
+            "seatNumber": "H6",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_7",
+            "row": "H",
+            "col": 7,
+            "seatNumber": "H7",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_8",
+            "row": "H",
+            "col": 8,
+            "seatNumber": "H8",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_9",
+            "row": "H",
+            "col": 9,
+            "seatNumber": "H9",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_H_10",
+            "row": "H",
+            "col": 10,
+            "seatNumber": "H10",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_11",
+            "row": "H",
+            "col": 11,
+            "seatNumber": "H11",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_12",
+            "row": "H",
+            "col": 12,
+            "seatNumber": "H12",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_13",
+            "row": "H",
+            "col": 13,
+            "seatNumber": "H13",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_H_14",
+            "row": "H",
+            "col": 14,
+            "seatNumber": "H14",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_15",
+            "row": "H",
+            "col": 15,
+            "seatNumber": "H15",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_16",
+            "row": "H",
+            "col": 16,
+            "seatNumber": "H16",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_17",
+            "row": "H",
+            "col": 17,
+            "seatNumber": "H17",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_H_18",
+            "row": "H",
+            "col": 18,
+            "seatNumber": "H18",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_19",
+            "row": "H",
+            "col": 19,
+            "seatNumber": "H19",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_20",
+            "row": "H",
+            "col": 20,
+            "seatNumber": "H20",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_21",
+            "row": "H",
+            "col": 21,
+            "seatNumber": "H21",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s2_H_22",
+            "row": "H",
+            "col": 22,
+            "seatNumber": "H22",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_23",
+            "row": "H",
+            "col": 23,
+            "seatNumber": "H23",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_24",
+            "row": "H",
+            "col": 24,
+            "seatNumber": "H24",
+            "type": "standard",
+            "category": "Prime",
+            "state": "available"
+          },
+          {
+            "id": "s2_H_25",
+            "row": "H",
+            "col": 25,
+            "seatNumber": "H25",
+            "type": "standard",
+            "category": "Prime",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "J",
+        "category": "Recliner",
+        "price": 600.0,
+        "seats": [
+          {
+            "id": "s2_J_1",
+            "row": "J",
+            "col": 1,
+            "seatNumber": "J1",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_2",
+            "row": "J",
+            "col": 2,
+            "seatNumber": "J2",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_3",
+            "row": "J",
+            "col": 3,
+            "seatNumber": "J3",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_4",
+            "row": "J",
+            "col": 4,
+            "seatNumber": "J4",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_J_5",
+            "row": "J",
+            "col": 5,
+            "seatNumber": "J5",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_6",
+            "row": "J",
+            "col": 6,
+            "seatNumber": "J6",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_7",
+            "row": "J",
+            "col": 7,
+            "seatNumber": "J7",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_J_8",
+            "row": "J",
+            "col": 8,
+            "seatNumber": "J8",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_J_9",
+            "row": "J",
+            "col": 9,
+            "seatNumber": "J9",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_10",
+            "row": "J",
+            "col": 10,
+            "seatNumber": "J10",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_11",
+            "row": "J",
+            "col": 11,
+            "seatNumber": "J11",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_12",
+            "row": "J",
+            "col": 12,
+            "seatNumber": "J12",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_J_13",
+            "row": "J",
+            "col": 13,
+            "seatNumber": "J13",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_14",
+            "row": "J",
+            "col": 14,
+            "seatNumber": "J14",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_15",
+            "row": "J",
+            "col": 15,
+            "seatNumber": "J15",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_16",
+            "row": "J",
+            "col": 16,
+            "seatNumber": "J16",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_J_17",
+            "row": "J",
+            "col": 17,
+            "seatNumber": "J17",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_18",
+            "row": "J",
+            "col": 18,
+            "seatNumber": "J18",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_19",
+            "row": "J",
+            "col": 19,
+            "seatNumber": "J19",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_20",
+            "row": "J",
+            "col": 20,
+            "seatNumber": "J20",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_J_21",
+            "row": "J",
+            "col": 21,
+            "seatNumber": "J21",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_22",
+            "row": "J",
+            "col": 22,
+            "seatNumber": "J22",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_23",
+            "row": "J",
+            "col": 23,
+            "seatNumber": "J23",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_J_24",
+            "row": "J",
+            "col": 24,
+            "seatNumber": "J24",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_J_25",
+            "row": "J",
+            "col": 25,
+            "seatNumber": "J25",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "K",
+        "category": "Recliner",
+        "price": 600.0,
+        "seats": [
+          {
+            "id": "s2_K_1",
+            "row": "K",
+            "col": 1,
+            "seatNumber": "K1",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_2",
+            "row": "K",
+            "col": 2,
+            "seatNumber": "K2",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_3",
+            "row": "K",
+            "col": 3,
+            "seatNumber": "K3",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_K_4",
+            "row": "K",
+            "col": 4,
+            "seatNumber": "K4",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_5",
+            "row": "K",
+            "col": 5,
+            "seatNumber": "K5",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_K_6",
+            "row": "K",
+            "col": 6,
+            "seatNumber": "K6",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_7",
+            "row": "K",
+            "col": 7,
+            "seatNumber": "K7",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_K_8",
+            "row": "K",
+            "col": 8,
+            "seatNumber": "K8",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_9",
+            "row": "K",
+            "col": 9,
+            "seatNumber": "K9",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_10",
+            "row": "K",
+            "col": 10,
+            "seatNumber": "K10",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_11",
+            "row": "K",
+            "col": 11,
+            "seatNumber": "K11",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_K_12",
+            "row": "K",
+            "col": 12,
+            "seatNumber": "K12",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_13",
+            "row": "K",
+            "col": 13,
+            "seatNumber": "K13",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_14",
+            "row": "K",
+            "col": 14,
+            "seatNumber": "K14",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_15",
+            "row": "K",
+            "col": 15,
+            "seatNumber": "K15",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_K_16",
+            "row": "K",
+            "col": 16,
+            "seatNumber": "K16",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_17",
+            "row": "K",
+            "col": 17,
+            "seatNumber": "K17",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_18",
+            "row": "K",
+            "col": 18,
+            "seatNumber": "K18",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_19",
+            "row": "K",
+            "col": 19,
+            "seatNumber": "K19",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_K_20",
+            "row": "K",
+            "col": 20,
+            "seatNumber": "K20",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_21",
+            "row": "K",
+            "col": 21,
+            "seatNumber": "K21",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_22",
+            "row": "K",
+            "col": 22,
+            "seatNumber": "K22",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_23",
+            "row": "K",
+            "col": 23,
+            "seatNumber": "K23",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s2_K_24",
+            "row": "K",
+            "col": 24,
+            "seatNumber": "K24",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s2_K_25",
+            "row": "K",
+            "col": 25,
+            "seatNumber": "K25",
+            "type": "recliner",
+            "category": "Recliner",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "L",
+        "category": "VIP Sofa",
+        "price": 750.0,
+        "seats": [
+          {
+            "id": "s2_L_1",
+            "row": "L",
+            "col": 1,
+            "seatNumber": "L1",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_2",
+            "row": "L",
+            "col": 2,
+            "seatNumber": "L2",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_L_3",
+            "row": "L",
+            "col": 3,
+            "seatNumber": "L3",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_L_4",
+            "row": "L",
+            "col": 4,
+            "seatNumber": "L4",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_5",
+            "row": "L",
+            "col": 5,
+            "seatNumber": "L5",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_6",
+            "row": "L",
+            "col": 6,
+            "seatNumber": "L6",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_L_7",
+            "row": "L",
+            "col": 7,
+            "seatNumber": "L7",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_8",
+            "row": "L",
+            "col": 8,
+            "seatNumber": "L8",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_9",
+            "row": "L",
+            "col": 9,
+            "seatNumber": "L9",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_10",
+            "row": "L",
+            "col": 10,
+            "seatNumber": "L10",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_L_11",
+            "row": "L",
+            "col": 11,
+            "seatNumber": "L11",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_12",
+            "row": "L",
+            "col": 12,
+            "seatNumber": "L12",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_13",
+            "row": "L",
+            "col": 13,
+            "seatNumber": "L13",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_14",
+            "row": "L",
+            "col": 14,
+            "seatNumber": "L14",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_L_15",
+            "row": "L",
+            "col": 15,
+            "seatNumber": "L15",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_16",
+            "row": "L",
+            "col": 16,
+            "seatNumber": "L16",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_17",
+            "row": "L",
+            "col": 17,
+            "seatNumber": "L17",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_18",
+            "row": "L",
+            "col": 18,
+            "seatNumber": "L18",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_L_19",
+            "row": "L",
+            "col": 19,
+            "seatNumber": "L19",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_20",
+            "row": "L",
+            "col": 20,
+            "seatNumber": "L20",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_21",
+            "row": "L",
+            "col": 21,
+            "seatNumber": "L21",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_22",
+            "row": "L",
+            "col": 22,
+            "seatNumber": "L22",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_L_23",
+            "row": "L",
+            "col": 23,
+            "seatNumber": "L23",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_24",
+            "row": "L",
+            "col": 24,
+            "seatNumber": "L24",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_L_25",
+            "row": "L",
+            "col": 25,
+            "seatNumber": "L25",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "M",
+        "category": "VIP Sofa",
+        "price": 750.0,
+        "seats": [
+          {
+            "id": "s2_M_1",
+            "row": "M",
+            "col": 1,
+            "seatNumber": "M1",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_M_2",
+            "row": "M",
+            "col": 2,
+            "seatNumber": "M2",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_3",
+            "row": "M",
+            "col": 3,
+            "seatNumber": "M3",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_4",
+            "row": "M",
+            "col": 4,
+            "seatNumber": "M4",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_5",
+            "row": "M",
+            "col": 5,
+            "seatNumber": "M5",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_M_6",
+            "row": "M",
+            "col": 6,
+            "seatNumber": "M6",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_7",
+            "row": "M",
+            "col": 7,
+            "seatNumber": "M7",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_8",
+            "row": "M",
+            "col": 8,
+            "seatNumber": "M8",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_9",
+            "row": "M",
+            "col": 9,
+            "seatNumber": "M9",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_M_10",
+            "row": "M",
+            "col": 10,
+            "seatNumber": "M10",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_11",
+            "row": "M",
+            "col": 11,
+            "seatNumber": "M11",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_12",
+            "row": "M",
+            "col": 12,
+            "seatNumber": "M12",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_13",
+            "row": "M",
+            "col": 13,
+            "seatNumber": "M13",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_M_14",
+            "row": "M",
+            "col": 14,
+            "seatNumber": "M14",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_15",
+            "row": "M",
+            "col": 15,
+            "seatNumber": "M15",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_16",
+            "row": "M",
+            "col": 16,
+            "seatNumber": "M16",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_17",
+            "row": "M",
+            "col": 17,
+            "seatNumber": "M17",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_M_18",
+            "row": "M",
+            "col": 18,
+            "seatNumber": "M18",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_19",
+            "row": "M",
+            "col": 19,
+            "seatNumber": "M19",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_20",
+            "row": "M",
+            "col": 20,
+            "seatNumber": "M20",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_21",
+            "row": "M",
+            "col": 21,
+            "seatNumber": "M21",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          },
+          {
+            "id": "s2_M_22",
+            "row": "M",
+            "col": 22,
+            "seatNumber": "M22",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_23",
+            "row": "M",
+            "col": 23,
+            "seatNumber": "M23",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "available"
+          },
+          {
+            "id": "s2_M_24",
+            "row": "M",
+            "col": 24,
+            "seatNumber": "M24",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "blocked"
+          },
+          {
+            "id": "s2_M_25",
+            "row": "M",
+            "col": 25,
+            "seatNumber": "M25",
+            "type": "sofa",
+            "category": "VIP Sofa",
+            "state": "booked"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "layout_imax",
+    "name": "IMAX Laser Auditorium",
+    "screenType": "IMAX Laser 12CH",
+    "totalSeats": 200,
+    "rows": [
+      {
+        "rowLabel": "A",
+        "category": "IMAX Club",
+        "price": 450.0,
+        "seats": [
+          {
+            "id": "s3_A_1",
+            "row": "A",
+            "col": 1,
+            "seatNumber": "A1",
+            "type": "wheelchair",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_2",
+            "row": "A",
+            "col": 2,
+            "seatNumber": "A2",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_3",
+            "row": "A",
+            "col": 3,
+            "seatNumber": "A3",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "booked"
+          },
+          {
+            "id": "s3_A_4",
+            "row": "A",
+            "col": 4,
+            "seatNumber": "A4",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_5",
+            "row": "A",
+            "col": 5,
+            "seatNumber": "A5",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_6",
+            "row": "A",
+            "col": 6,
+            "seatNumber": "A6",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "booked"
+          },
+          {
+            "id": "s3_A_7",
+            "row": "A",
+            "col": 7,
+            "seatNumber": "A7",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_8",
+            "row": "A",
+            "col": 8,
+            "seatNumber": "A8",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_9",
+            "row": "A",
+            "col": 9,
+            "seatNumber": "A9",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "booked"
+          },
+          {
+            "id": "s3_A_10",
+            "row": "A",
+            "col": 10,
+            "seatNumber": "A10",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_11",
+            "row": "A",
+            "col": 11,
+            "seatNumber": "A11",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_12",
+            "row": "A",
+            "col": 12,
+            "seatNumber": "A12",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "booked"
+          },
+          {
+            "id": "s3_A_13",
+            "row": "A",
+            "col": 13,
+            "seatNumber": "A13",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_14",
+            "row": "A",
+            "col": 14,
+            "seatNumber": "A14",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "available"
+          },
+          {
+            "id": "s3_A_15",
+            "row": "A",
+            "col": 15,
+            "seatNumber": "A15",
+            "type": "standard",
+            "category": "IMAX Club",
+            "state": "booked"
+          },
+          {
+            "id": "s3_A_16",
+            "row": "A",
+            "col": 16,
+            "seatNumber": "A16",
+            "type": "wheelchair",
+            "category": "IMAX Club",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "B",
+        "category": "IMAX Classic",
+        "price": 500.0,
+        "seats": [
+          {
+            "id": "s3_B_1",
+            "row": "B",
+            "col": 1,
+            "seatNumber": "B1",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_2",
+            "row": "B",
+            "col": 2,
+            "seatNumber": "B2",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_3",
+            "row": "B",
+            "col": 3,
+            "seatNumber": "B3",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_4",
+            "row": "B",
+            "col": 4,
+            "seatNumber": "B4",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_5",
+            "row": "B",
+            "col": 5,
+            "seatNumber": "B5",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_6",
+            "row": "B",
+            "col": 6,
+            "seatNumber": "B6",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_7",
+            "row": "B",
+            "col": 7,
+            "seatNumber": "B7",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_8",
+            "row": "B",
+            "col": 8,
+            "seatNumber": "B8",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_9",
+            "row": "B",
+            "col": 9,
+            "seatNumber": "B9",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_10",
+            "row": "B",
+            "col": 10,
+            "seatNumber": "B10",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_11",
+            "row": "B",
+            "col": 11,
+            "seatNumber": "B11",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_12",
+            "row": "B",
+            "col": 12,
+            "seatNumber": "B12",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_13",
+            "row": "B",
+            "col": 13,
+            "seatNumber": "B13",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_14",
+            "row": "B",
+            "col": 14,
+            "seatNumber": "B14",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_15",
+            "row": "B",
+            "col": 15,
+            "seatNumber": "B15",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_16",
+            "row": "B",
+            "col": 16,
+            "seatNumber": "B16",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_17",
+            "row": "B",
+            "col": 17,
+            "seatNumber": "B17",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_B_18",
+            "row": "B",
+            "col": 18,
+            "seatNumber": "B18",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "blocked"
+          },
+          {
+            "id": "s3_B_19",
+            "row": "B",
+            "col": 19,
+            "seatNumber": "B19",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_B_20",
+            "row": "B",
+            "col": 20,
+            "seatNumber": "B20",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "C",
+        "category": "IMAX Classic",
+        "price": 500.0,
+        "seats": [
+          {
+            "id": "s3_C_1",
+            "row": "C",
+            "col": 1,
+            "seatNumber": "C1",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_2",
+            "row": "C",
+            "col": 2,
+            "seatNumber": "C2",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_C_3",
+            "row": "C",
+            "col": 3,
+            "seatNumber": "C3",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_4",
+            "row": "C",
+            "col": 4,
+            "seatNumber": "C4",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_5",
+            "row": "C",
+            "col": 5,
+            "seatNumber": "C5",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_C_6",
+            "row": "C",
+            "col": 6,
+            "seatNumber": "C6",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_7",
+            "row": "C",
+            "col": 7,
+            "seatNumber": "C7",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_8",
+            "row": "C",
+            "col": 8,
+            "seatNumber": "C8",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_C_9",
+            "row": "C",
+            "col": 9,
+            "seatNumber": "C9",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_10",
+            "row": "C",
+            "col": 10,
+            "seatNumber": "C10",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_11",
+            "row": "C",
+            "col": 11,
+            "seatNumber": "C11",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_C_12",
+            "row": "C",
+            "col": 12,
+            "seatNumber": "C12",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_13",
+            "row": "C",
+            "col": 13,
+            "seatNumber": "C13",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_14",
+            "row": "C",
+            "col": 14,
+            "seatNumber": "C14",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_C_15",
+            "row": "C",
+            "col": 15,
+            "seatNumber": "C15",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_16",
+            "row": "C",
+            "col": 16,
+            "seatNumber": "C16",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_17",
+            "row": "C",
+            "col": 17,
+            "seatNumber": "C17",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_C_18",
+            "row": "C",
+            "col": 18,
+            "seatNumber": "C18",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_19",
+            "row": "C",
+            "col": 19,
+            "seatNumber": "C19",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_C_20",
+            "row": "C",
+            "col": 20,
+            "seatNumber": "C20",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "D",
+        "category": "IMAX Classic",
+        "price": 500.0,
+        "seats": [
+          {
+            "id": "s3_D_1",
+            "row": "D",
+            "col": 1,
+            "seatNumber": "D1",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_2",
+            "row": "D",
+            "col": 2,
+            "seatNumber": "D2",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_3",
+            "row": "D",
+            "col": 3,
+            "seatNumber": "D3",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_D_4",
+            "row": "D",
+            "col": 4,
+            "seatNumber": "D4",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_5",
+            "row": "D",
+            "col": 5,
+            "seatNumber": "D5",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_6",
+            "row": "D",
+            "col": 6,
+            "seatNumber": "D6",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_D_7",
+            "row": "D",
+            "col": 7,
+            "seatNumber": "D7",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_8",
+            "row": "D",
+            "col": 8,
+            "seatNumber": "D8",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_9",
+            "row": "D",
+            "col": 9,
+            "seatNumber": "D9",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_D_10",
+            "row": "D",
+            "col": 10,
+            "seatNumber": "D10",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_11",
+            "row": "D",
+            "col": 11,
+            "seatNumber": "D11",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_12",
+            "row": "D",
+            "col": 12,
+            "seatNumber": "D12",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_D_13",
+            "row": "D",
+            "col": 13,
+            "seatNumber": "D13",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_14",
+            "row": "D",
+            "col": 14,
+            "seatNumber": "D14",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_15",
+            "row": "D",
+            "col": 15,
+            "seatNumber": "D15",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_D_16",
+            "row": "D",
+            "col": 16,
+            "seatNumber": "D16",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "blocked"
+          },
+          {
+            "id": "s3_D_17",
+            "row": "D",
+            "col": 17,
+            "seatNumber": "D17",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_18",
+            "row": "D",
+            "col": 18,
+            "seatNumber": "D18",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "booked"
+          },
+          {
+            "id": "s3_D_19",
+            "row": "D",
+            "col": 19,
+            "seatNumber": "D19",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          },
+          {
+            "id": "s3_D_20",
+            "row": "D",
+            "col": 20,
+            "seatNumber": "D20",
+            "type": "standard",
+            "category": "IMAX Classic",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "E",
+        "category": "IMAX Prime",
+        "price": 650.0,
+        "seats": [
+          {
+            "id": "s3_E_1",
+            "row": "E",
+            "col": 1,
+            "seatNumber": "E1",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_2",
+            "row": "E",
+            "col": 2,
+            "seatNumber": "E2",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_3",
+            "row": "E",
+            "col": 3,
+            "seatNumber": "E3",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_4",
+            "row": "E",
+            "col": 4,
+            "seatNumber": "E4",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_5",
+            "row": "E",
+            "col": 5,
+            "seatNumber": "E5",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_6",
+            "row": "E",
+            "col": 6,
+            "seatNumber": "E6",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_7",
+            "row": "E",
+            "col": 7,
+            "seatNumber": "E7",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s3_E_8",
+            "row": "E",
+            "col": 8,
+            "seatNumber": "E8",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_9",
+            "row": "E",
+            "col": 9,
+            "seatNumber": "E9",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_10",
+            "row": "E",
+            "col": 10,
+            "seatNumber": "E10",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_11",
+            "row": "E",
+            "col": 11,
+            "seatNumber": "E11",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_12",
+            "row": "E",
+            "col": 12,
+            "seatNumber": "E12",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_13",
+            "row": "E",
+            "col": 13,
+            "seatNumber": "E13",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_14",
+            "row": "E",
+            "col": 14,
+            "seatNumber": "E14",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_15",
+            "row": "E",
+            "col": 15,
+            "seatNumber": "E15",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_16",
+            "row": "E",
+            "col": 16,
+            "seatNumber": "E16",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_17",
+            "row": "E",
+            "col": 17,
+            "seatNumber": "E17",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_18",
+            "row": "E",
+            "col": 18,
+            "seatNumber": "E18",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_19",
+            "row": "E",
+            "col": 19,
+            "seatNumber": "E19",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_20",
+            "row": "E",
+            "col": 20,
+            "seatNumber": "E20",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_E_21",
+            "row": "E",
+            "col": 21,
+            "seatNumber": "E21",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_E_22",
+            "row": "E",
+            "col": 22,
+            "seatNumber": "E22",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "F",
+        "category": "IMAX Prime",
+        "price": 650.0,
+        "seats": [
+          {
+            "id": "s3_F_1",
+            "row": "F",
+            "col": 1,
+            "seatNumber": "F1",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_2",
+            "row": "F",
+            "col": 2,
+            "seatNumber": "F2",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_3",
+            "row": "F",
+            "col": 3,
+            "seatNumber": "F3",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_4",
+            "row": "F",
+            "col": 4,
+            "seatNumber": "F4",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_5",
+            "row": "F",
+            "col": 5,
+            "seatNumber": "F5",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_6",
+            "row": "F",
+            "col": 6,
+            "seatNumber": "F6",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_7",
+            "row": "F",
+            "col": 7,
+            "seatNumber": "F7",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_8",
+            "row": "F",
+            "col": 8,
+            "seatNumber": "F8",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_9",
+            "row": "F",
+            "col": 9,
+            "seatNumber": "F9",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_10",
+            "row": "F",
+            "col": 10,
+            "seatNumber": "F10",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_11",
+            "row": "F",
+            "col": 11,
+            "seatNumber": "F11",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_12",
+            "row": "F",
+            "col": 12,
+            "seatNumber": "F12",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_13",
+            "row": "F",
+            "col": 13,
+            "seatNumber": "F13",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_14",
+            "row": "F",
+            "col": 14,
+            "seatNumber": "F14",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_15",
+            "row": "F",
+            "col": 15,
+            "seatNumber": "F15",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_16",
+            "row": "F",
+            "col": 16,
+            "seatNumber": "F16",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_17",
+            "row": "F",
+            "col": 17,
+            "seatNumber": "F17",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_18",
+            "row": "F",
+            "col": 18,
+            "seatNumber": "F18",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_19",
+            "row": "F",
+            "col": 19,
+            "seatNumber": "F19",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_F_20",
+            "row": "F",
+            "col": 20,
+            "seatNumber": "F20",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_21",
+            "row": "F",
+            "col": 21,
+            "seatNumber": "F21",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_F_22",
+            "row": "F",
+            "col": 22,
+            "seatNumber": "F22",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "G",
+        "category": "IMAX Prime",
+        "price": 650.0,
+        "seats": [
+          {
+            "id": "s3_G_1",
+            "row": "G",
+            "col": 1,
+            "seatNumber": "G1",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s3_G_2",
+            "row": "G",
+            "col": 2,
+            "seatNumber": "G2",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_3",
+            "row": "G",
+            "col": 3,
+            "seatNumber": "G3",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_4",
+            "row": "G",
+            "col": 4,
+            "seatNumber": "G4",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_5",
+            "row": "G",
+            "col": 5,
+            "seatNumber": "G5",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_6",
+            "row": "G",
+            "col": 6,
+            "seatNumber": "G6",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_7",
+            "row": "G",
+            "col": 7,
+            "seatNumber": "G7",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_8",
+            "row": "G",
+            "col": 8,
+            "seatNumber": "G8",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_9",
+            "row": "G",
+            "col": 9,
+            "seatNumber": "G9",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_10",
+            "row": "G",
+            "col": 10,
+            "seatNumber": "G10",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_11",
+            "row": "G",
+            "col": 11,
+            "seatNumber": "G11",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_12",
+            "row": "G",
+            "col": 12,
+            "seatNumber": "G12",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_13",
+            "row": "G",
+            "col": 13,
+            "seatNumber": "G13",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_14",
+            "row": "G",
+            "col": 14,
+            "seatNumber": "G14",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_15",
+            "row": "G",
+            "col": 15,
+            "seatNumber": "G15",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_16",
+            "row": "G",
+            "col": 16,
+            "seatNumber": "G16",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_17",
+            "row": "G",
+            "col": 17,
+            "seatNumber": "G17",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_18",
+            "row": "G",
+            "col": 18,
+            "seatNumber": "G18",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_19",
+            "row": "G",
+            "col": 19,
+            "seatNumber": "G19",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_G_20",
+            "row": "G",
+            "col": 20,
+            "seatNumber": "G20",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "blocked"
+          },
+          {
+            "id": "s3_G_21",
+            "row": "G",
+            "col": 21,
+            "seatNumber": "G21",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_G_22",
+            "row": "G",
+            "col": 22,
+            "seatNumber": "G22",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "H",
+        "category": "IMAX Prime",
+        "price": 650.0,
+        "seats": [
+          {
+            "id": "s3_H_1",
+            "row": "H",
+            "col": 1,
+            "seatNumber": "H1",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_2",
+            "row": "H",
+            "col": 2,
+            "seatNumber": "H2",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_3",
+            "row": "H",
+            "col": 3,
+            "seatNumber": "H3",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_4",
+            "row": "H",
+            "col": 4,
+            "seatNumber": "H4",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_5",
+            "row": "H",
+            "col": 5,
+            "seatNumber": "H5",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_6",
+            "row": "H",
+            "col": 6,
+            "seatNumber": "H6",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_7",
+            "row": "H",
+            "col": 7,
+            "seatNumber": "H7",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_8",
+            "row": "H",
+            "col": 8,
+            "seatNumber": "H8",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_9",
+            "row": "H",
+            "col": 9,
+            "seatNumber": "H9",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_10",
+            "row": "H",
+            "col": 10,
+            "seatNumber": "H10",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_11",
+            "row": "H",
+            "col": 11,
+            "seatNumber": "H11",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_12",
+            "row": "H",
+            "col": 12,
+            "seatNumber": "H12",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_13",
+            "row": "H",
+            "col": 13,
+            "seatNumber": "H13",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_14",
+            "row": "H",
+            "col": 14,
+            "seatNumber": "H14",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_15",
+            "row": "H",
+            "col": 15,
+            "seatNumber": "H15",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_16",
+            "row": "H",
+            "col": 16,
+            "seatNumber": "H16",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_17",
+            "row": "H",
+            "col": 17,
+            "seatNumber": "H17",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_18",
+            "row": "H",
+            "col": 18,
+            "seatNumber": "H18",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_19",
+            "row": "H",
+            "col": 19,
+            "seatNumber": "H19",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_20",
+            "row": "H",
+            "col": 20,
+            "seatNumber": "H20",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "booked"
+          },
+          {
+            "id": "s3_H_21",
+            "row": "H",
+            "col": 21,
+            "seatNumber": "H21",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          },
+          {
+            "id": "s3_H_22",
+            "row": "H",
+            "col": 22,
+            "seatNumber": "H22",
+            "type": "standard",
+            "category": "IMAX Prime",
+            "state": "available"
+          }
+        ]
+      },
+      {
+        "rowLabel": "J",
+        "category": "IMAX Royal Recliner",
+        "price": 950.0,
+        "seats": [
+          {
+            "id": "s3_J_1",
+            "row": "J",
+            "col": 1,
+            "seatNumber": "J1",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_2",
+            "row": "J",
+            "col": 2,
+            "seatNumber": "J2",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_3",
+            "row": "J",
+            "col": 3,
+            "seatNumber": "J3",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_J_4",
+            "row": "J",
+            "col": 4,
+            "seatNumber": "J4",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_5",
+            "row": "J",
+            "col": 5,
+            "seatNumber": "J5",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_6",
+            "row": "J",
+            "col": 6,
+            "seatNumber": "J6",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_J_7",
+            "row": "J",
+            "col": 7,
+            "seatNumber": "J7",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_8",
+            "row": "J",
+            "col": 8,
+            "seatNumber": "J8",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "blocked"
+          },
+          {
+            "id": "s3_J_9",
+            "row": "J",
+            "col": 9,
+            "seatNumber": "J9",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_J_10",
+            "row": "J",
+            "col": 10,
+            "seatNumber": "J10",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_11",
+            "row": "J",
+            "col": 11,
+            "seatNumber": "J11",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_12",
+            "row": "J",
+            "col": 12,
+            "seatNumber": "J12",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_J_13",
+            "row": "J",
+            "col": 13,
+            "seatNumber": "J13",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_14",
+            "row": "J",
+            "col": 14,
+            "seatNumber": "J14",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_15",
+            "row": "J",
+            "col": 15,
+            "seatNumber": "J15",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_J_16",
+            "row": "J",
+            "col": 16,
+            "seatNumber": "J16",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_17",
+            "row": "J",
+            "col": 17,
+            "seatNumber": "J17",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_J_18",
+            "row": "J",
+            "col": 18,
+            "seatNumber": "J18",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          }
+        ]
+      },
+      {
+        "rowLabel": "K",
+        "category": "IMAX Royal Recliner",
+        "price": 950.0,
+        "seats": [
+          {
+            "id": "s3_K_1",
+            "row": "K",
+            "col": 1,
+            "seatNumber": "K1",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_2",
+            "row": "K",
+            "col": 2,
+            "seatNumber": "K2",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_3",
+            "row": "K",
+            "col": 3,
+            "seatNumber": "K3",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_K_4",
+            "row": "K",
+            "col": 4,
+            "seatNumber": "K4",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_5",
+            "row": "K",
+            "col": 5,
+            "seatNumber": "K5",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_6",
+            "row": "K",
+            "col": 6,
+            "seatNumber": "K6",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_K_7",
+            "row": "K",
+            "col": 7,
+            "seatNumber": "K7",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_8",
+            "row": "K",
+            "col": 8,
+            "seatNumber": "K8",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_9",
+            "row": "K",
+            "col": 9,
+            "seatNumber": "K9",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_K_10",
+            "row": "K",
+            "col": 10,
+            "seatNumber": "K10",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_11",
+            "row": "K",
+            "col": 11,
+            "seatNumber": "K11",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_12",
+            "row": "K",
+            "col": 12,
+            "seatNumber": "K12",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_K_13",
+            "row": "K",
+            "col": 13,
+            "seatNumber": "K13",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_14",
+            "row": "K",
+            "col": 14,
+            "seatNumber": "K14",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_15",
+            "row": "K",
+            "col": 15,
+            "seatNumber": "K15",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          },
+          {
+            "id": "s3_K_16",
+            "row": "K",
+            "col": 16,
+            "seatNumber": "K16",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_17",
+            "row": "K",
+            "col": 17,
+            "seatNumber": "K17",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "available"
+          },
+          {
+            "id": "s3_K_18",
+            "row": "K",
+            "col": 18,
+            "seatNumber": "K18",
+            "type": "recliner",
+            "category": "IMAX Royal Recliner",
+            "state": "booked"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+{
+  "items": [
+    {
+      "id": "fnb_001",
+      "name": "Classic Salted Popcorn (Regular)",
+      "description": "Crisp golden butterfly popcorn lightly seasoned with Himalayan pink rock salt.",
+      "imageUrl": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=600&auto=format&fit=crop&q=80",
+      "price": 280.0,
+      "category": "Popcorn",
+      "isVeg": true,
+      "calories": 380,
+      "rating": 4.8
+    },
+    {
+      "id": "fnb_002",
+      "name": "Golden Butter Gourmet Popcorn (Large)",
+      "description": "Jumbo popped corn drenched in creamy Dutch melted butter with a warm savory crunch.",
+      "imageUrl": "https://images.unsplash.com/photo-1585647347384-2593bc35786b?w=600&auto=format&fit=crop&q=80",
+      "price": 360.0,
+      "category": "Popcorn",
+      "isVeg": true,
+      "calories": 540,
+      "rating": 4.9
+    },
+    {
+      "id": "fnb_003",
+      "name": "Spicy Peri-Peri Popcorn (Tub)",
+      "description": "Zesty African bird's eye chili and herb seasoning tossed over warm freshly popped kernels.",
+      "imageUrl": "https://images.unsplash.com/photo-1512149177596-f817c7ef5d4c?w=600&auto=format&fit=crop&q=80",
+      "price": 390.0,
+      "category": "Popcorn",
+      "isVeg": true,
+      "calories": 510,
+      "rating": 4.7
+    },
+    {
+      "id": "fnb_004",
+      "name": "Caramel & Cheese Duo Popcorn (Tub)",
+      "description": "The ultimate sweet and savory collision: artisanal dark brown cane sugar caramel and sharp cheddar cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=600&auto=format&fit=crop&q=80",
+      "price": 420.0,
+      "category": "Popcorn",
+      "isVeg": true,
+      "calories": 620,
+      "rating": 4.9
+    },
+    {
+      "id": "fnb_005",
+      "name": "Chilled Coca-Cola Zero Sugar (650ml)",
+      "description": "Ice-cold sparkling refreshment with zero sugar and maximum cinema fizz.",
+      "imageUrl": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&auto=format&fit=crop&q=80",
+      "price": 190.0,
+      "category": "Beverages",
+      "isVeg": true,
+      "calories": 0,
+      "rating": 4.6
+    },
+    {
+      "id": "fnb_006",
+      "name": "Fresh Valencia Orange Pulpy Juice",
+      "description": "Cold-pressed 100% pure Valencia orange juice with real fruit sacs and no added preservatives.",
+      "imageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&auto=format&fit=crop&q=80",
+      "price": 220.0,
+      "category": "Beverages",
+      "isVeg": true,
+      "calories": 140,
+      "rating": 4.7
+    },
+    {
+      "id": "fnb_007",
+      "name": "Artisanal Cold Brew Coffee",
+      "description": "Single-origin Chikmagalur Arabica beans steeped for 18 hours, served chilled over ice.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80",
+      "price": 250.0,
+      "category": "Beverages",
+      "isVeg": true,
+      "calories": 15,
+      "rating": 4.8
+    },
+    {
+      "id": "fnb_008",
+      "name": "Crispy Loaded Mexican Nachos",
+      "description": "Stone-ground yellow corn tortilla chips served with molten warm cheddar cheese sauce and fire-roasted salsa.",
+      "imageUrl": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&auto=format&fit=crop&q=80",
+      "price": 340.0,
+      "category": "Snacks",
+      "isVeg": true,
+      "calories": 480,
+      "rating": 4.8
+    },
+    {
+      "id": "fnb_009",
+      "name": "Truffle Parmesan Hand-Cut Fries",
+      "description": "Double-fried Belgian potato batons tossed in white truffle oil, rosemary, and aged grated parmesan.",
+      "imageUrl": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80",
+      "price": 310.0,
+      "category": "Snacks",
+      "isVeg": true,
+      "calories": 420,
+      "rating": 4.8
+    },
+    {
+      "id": "fnb_010",
+      "name": "Steamed Himalayan Paneer Momos (6 pcs)",
+      "description": "Delicate handmade flour dumplings filled with spiced cottage cheese and scallions, served with spicy red chili dip.",
+      "imageUrl": "https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=600&auto=format&fit=crop&q=80",
+      "price": 290.0,
+      "category": "Hot Food",
+      "isVeg": true,
+      "calories": 310,
+      "rating": 4.7
+    },
+    {
+      "id": "fnb_011",
+      "name": "Grilled Smoky Chicken Burger",
+      "description": "Char-grilled herb chicken breast patty topped with caramelized onions, cheddar slice, and hickory barbecue aioli.",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop&q=80",
+      "price": 380.0,
+      "category": "Hot Food",
+      "isVeg": false,
+      "calories": 590,
+      "rating": 4.8
+    },
+    {
+      "id": "fnb_012",
+      "name": "Belgian Chocolate Hazelnut Churros",
+      "description": "Crisp cinnamon-sugar dusted Spanish churros accompanied by a rich dip of melted Belgian hazelnut ganache.",
+      "imageUrl": "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?w=600&auto=format&fit=crop&q=80",
+      "price": 320.0,
+      "category": "Snacks",
+      "isVeg": true,
+      "calories": 460,
+      "rating": 4.9
+    }
+  ],
+  "combos": [
+    {
+      "id": "cmb_001",
+      "name": "Blockbuster Classic Duo Combo",
+      "description": "1 Golden Butter Gourmet Popcorn (Large) + 2 Chilled Coca-Cola Zero Sugar (650ml). The timeless cinema experience.",
+      "imageUrl": "https://images.unsplash.com/photo-1585647347384-2593bc35786b?w=600&auto=format&fit=crop&q=80",
+      "items": [
+        {
+          "id": "fnb_002",
+          "name": "Golden Butter Gourmet Popcorn (Large)",
+          "description": "Jumbo popped corn drenched in creamy Dutch melted butter with a warm savory crunch.",
+          "imageUrl": "https://images.unsplash.com/photo-1585647347384-2593bc35786b?w=600&auto=format&fit=crop&q=80",
+          "price": 360.0,
+          "category": "Popcorn",
+          "isVeg": true,
+          "calories": 540,
+          "rating": 4.9
+        },
+        {
+          "id": "fnb_005",
+          "name": "Chilled Coca-Cola Zero Sugar (650ml)",
+          "description": "Ice-cold sparkling refreshment with zero sugar and maximum cinema fizz.",
+          "imageUrl": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&auto=format&fit=crop&q=80",
+          "price": 190.0,
+          "category": "Beverages",
+          "isVeg": true,
+          "calories": 0,
+          "rating": 4.6
+        },
+        {
+          "id": "fnb_005_b",
+          "name": "Chilled Coca-Cola Zero Sugar (650ml)",
+          "description": "Ice-cold sparkling refreshment with zero sugar and maximum cinema fizz.",
+          "imageUrl": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&auto=format&fit=crop&q=80",
+          "price": 190.0,
+          "category": "Beverages",
+          "isVeg": true,
+          "calories": 0,
+          "rating": 4.6
+        }
+      ],
+      "comboPrice": 599.0,
+      "originalPrice": 740.0,
+      "savings": 141.0
+    },
+    {
+      "id": "cmb_002",
+      "name": "IMAX Signature Snacker Combo",
+      "description": "1 Spicy Peri-Peri Popcorn (Tub) + 1 Crispy Loaded Mexican Nachos + 2 Valencia Orange Juices.",
+      "imageUrl": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&auto=format&fit=crop&q=80",
+      "items": [
+        {
+          "id": "fnb_003",
+          "name": "Spicy Peri-Peri Popcorn (Tub)",
+          "description": "Zesty African bird's eye chili and herb seasoning tossed over warm freshly popped kernels.",
+          "imageUrl": "https://images.unsplash.com/photo-1512149177596-f817c7ef5d4c?w=600&auto=format&fit=crop&q=80",
+          "price": 390.0,
+          "category": "Popcorn",
+          "isVeg": true,
+          "calories": 510,
+          "rating": 4.7
+        },
+        {
+          "id": "fnb_008",
+          "name": "Crispy Loaded Mexican Nachos",
+          "description": "Stone-ground yellow corn tortilla chips served with molten warm cheddar cheese sauce and fire-roasted salsa.",
+          "imageUrl": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&auto=format&fit=crop&q=80",
+          "price": 340.0,
+          "category": "Snacks",
+          "isVeg": true,
+          "calories": 480,
+          "rating": 4.8
+        },
+        {
+          "id": "fnb_006",
+          "name": "Fresh Valencia Orange Pulpy Juice",
+          "description": "Cold-pressed 100% pure Valencia orange juice with real fruit sacs and no added preservatives.",
+          "imageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&auto=format&fit=crop&q=80",
+          "price": 220.0,
+          "category": "Beverages",
+          "isVeg": true,
+          "calories": 140,
+          "rating": 4.7
+        },
+        {
+          "id": "fnb_006_b",
+          "name": "Fresh Valencia Orange Pulpy Juice",
+          "description": "Cold-pressed 100% pure Valencia orange juice with real fruit sacs and no added preservatives.",
+          "imageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=600&auto=format&fit=crop&q=80",
+          "price": 220.0,
+          "category": "Beverages",
+          "isVeg": true,
+          "calories": 140,
+          "rating": 4.7
+        }
+      ],
+      "comboPrice": 920.0,
+      "originalPrice": 1170.0,
+      "savings": 250.0
+    },
+    {
+      "id": "cmb_003",
+      "name": "Sweet & Savory Gourmet Fest",
+      "description": "1 Caramel & Cheese Duo Popcorn (Tub) + 1 Belgian Chocolate Hazelnut Churros + 2 Artisanal Cold Brew Coffees.",
+      "imageUrl": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=600&auto=format&fit=crop&q=80",
+      "items": [
+        {
+          "id": "fnb_004",
+          "name": "Caramel & Cheese Duo Popcorn (Tub)",
+          "description": "The ultimate sweet and savory collision: artisanal dark brown cane sugar caramel and sharp cheddar cheese.",
+          "imageUrl": "https://images.unsplash.com/photo-1578849278619-e73505e9610f?w=600&auto=format&fit=crop&q=80",
+          "price": 420.0,
+          "category": "Popcorn",
+          "isVeg": true,
+          "calories": 620,
+          "rating": 4.9
+        },
+        {
+          "id": "fnb_012",
+          "name": "Belgian Chocolate Hazelnut Churros",
+          "description": "Crisp cinnamon-sugar dusted Spanish churros accompanied by a rich dip of melted Belgian hazelnut ganache.",
+          "imageUrl": "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?w=600&auto=format&fit=crop&q=80",
+          "price": 320.0,
+          "category": "Snacks",
+          "isVeg": true,
+          "calories": 460,
+          "rating": 4.9
+        },
+        {
+          "id": "fnb_007",
+          "name": "Artisanal Cold Brew Coffee",
+          "description": "Single-origin Chikmagalur Arabica beans steeped for 18 hours, served chilled over ice.",
+          "imageUrl": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80",
+          "price": 250.0,
+          "category": "Beverages",
+          "isVeg": true,
+          "calories": 15,
+          "rating": 4.8
+        },
+        {
+          "id": "fnb_007_b",
+          "name": "Artisanal Cold Brew Coffee",
+          "description": "Single-origin Chikmagalur Arabica beans steeped for 18 hours, served chilled over ice.",
+          "imageUrl": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80",
+          "price": 250.0,
+          "category": "Beverages",
+          "isVeg": true,
+          "calories": 15,
+          "rating": 4.8
+        }
+      ],
+      "comboPrice": 999.0,
+      "originalPrice": 1240.0,
+      "savings": 241.0
+    }
+  ]
+}

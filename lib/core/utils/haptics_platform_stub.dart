@@ -1,0 +1,1 @@
+void vibratePlatform(int milliseconds) {}
